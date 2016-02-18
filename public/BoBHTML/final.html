@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>final</title>
+  <meta name="description" content="">
+  <meta name="author" content="C037440">
+
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style>
+      table {
+          border-collapse:collapse;
+      }
+  
+      tr {
+          visibility:hidden;
+      }
+      
+      .header {
+          visibility:visible;
+          background-color: lightgrey;
+      }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+	function loadXMLDoc(filename) {
+		if (window.ActiveXObject) {
+			xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+		} else {
+			xhttp = new XMLHttpRequest();
+		}
+
+		xhttp.open("GET", filename, false);
+
+		try {
+			xhttp.responseType = "msxml-document";
+		} catch(err) {
+		}// Helping IE11
+
+		xhttp.send("");
+
+		return xhttp.responseXML;
+	}
+
+	function loadFileToElement() {
+		var 
+		  xml = loadXMLDoc('_resources/final.xml'), 
+		  xsl = loadXMLDoc('_resources/final.xsl'),
+		  btnLoad = document.getElementById('load');
+        
+        btnLoad.style.display = 'none';
+        
+		if (window.ActiveXObject) {//code for IE
+			ex = xml.transformNode(xsl);
+			document.getElementById("final").innerHTML = ex;
+		} else if (document.implementation && document.implementation.createDocument) {//code for Chrome, Firefox, Opera, etc.
+			xsltProcessor = new XSLTProcessor();
+			xsltProcessor.importStylesheet(xsl);
+			resultDocument = xsltProcessor.transformToFragment(xml, document);
+
+			document.getElementById("final").appendChild(resultDocument);
+		}
+	}
+    
+    function SendSMS(sendButton) {
+        var
+            table = document.getElementById('finalTable'),
+            tr = sendButton.parentElement.parentElement,
+            name = tr.cells[1].innerHTML,
+            place = tr.cells[0].innerHTML;
+            if (isNaN(tr.cells[4].innerHTML)){
+                prize = tr.cells[4].innerHTML;
+            } else {
+                prize = "$" + (tr.cells[4].innerHTML);
+            }
+            ticket = tr.cells[6].innerHTML,
+            phone = tr.cells[5].innerHTML;
+        
+        // Service call to Node.JS webservice to send SMS text message to winner will go here.
+        
+        switch (tr.rowIndex) {
+            case 1:
+                alert (name + ", you placed " + place + "st and won! Prize: " + prize);
+                break;
+            case 2:
+                alert (name + ", you placed " + place + "nd and won! Prize: " + prize);
+                break;
+            case 3:
+                alert (name + ", you placed " + place + "rd and won! Prize: " + prize);
+                break;
+            default:
+                alert (name + ", you placed " + place + "th and won! Prize: " + prize);
+                break;
+        }
+        
+        table.rows[tr.rowIndex + 1].style.visibility = 'visible';
+    }
+    
+    function ShowFirst() {
+        var table = document.getElementById('finalTable');
+        table.rows[1].style.visibility = 'visible';        
+    }
+  </script>
+</head>
+
+<body>
+  <div>
+    <header>
+      <h1>Battle on Bago: Final Results</h1>
+    </header>
+    
+    <input id="load" type="button" value="Load Results" onclick="loadFileToElement()" />
+    
+    <div id="final">
+        
+    </div>
+
+    <footer>
+  
+    </footer>
+  </div>
+</body>
+</html>

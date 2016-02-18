@@ -1,0 +1,2056 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--?xml-stylesheet type="text/xsl" href="final.xsl" ?-->
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<place>1</place>
+		<prize>Grizzly 75 Cooler - Battle on Bago Edition</prize>
+		<weight>8.661</weight>
+		<species>Walleye</species>
+		<contestant>Chris Jackson </contestant>
+		<phone>9204700182</phone>
+		<ticket>7863</ticket>
+	</record>
+	<record>
+		<place>2</place>
+		<prize>Grizzly 75 Cooler - Battle on Bago Edition</prize>
+		<weight>8.388</weight>
+		<species>Walleye</species>
+		<contestant>Mike Werner</contestant>
+		<phone>9204700182</phone>
+		<ticket>8227</ticket>
+	</record>
+	<record>
+		<place>3</place>
+		<prize>Savage 93R17 17HMR Courtesy of Scheels</prize>
+		<weight>8.084</weight>
+		<species>Walleye</species>
+		<contestant>Nick Rooney</contestant>
+		<phone>9204700182</phone>
+		<ticket>11959</ticket>
+	</record>
+	<record>
+		<place>4</place>
+		<prize>Jiffy Propane Auger</prize>
+		<weight>7.842</weight>
+		<species>Walleye</species>
+		<contestant>Andy Sowls</contestant>
+		<phone>9204700182</phone>
+		<ticket>8886</ticket>
+	</record>
+	<record>
+		<place>5</place>
+		<prize>Jiffy Propane Auger</prize>
+		<weight>7.728</weight>
+		<species>Walleye</species>
+		<contestant>Casey Pingle</contestant>
+		<phone>9204700182</phone>
+		<ticket>6713</ticket>
+	</record>
+	<record>
+		<place>6</place>
+		<prize>250</prize>
+		<weight>7.716</weight>
+		<species>Walleye</species>
+		<contestant>Dylan Klostrerman</contestant>
+		<phone>9204700182</phone>
+		<ticket>7982</ticket>
+	</record>
+	<record>
+		<place>7</place>
+		<prize>500</prize>
+		<weight>7.479</weight>
+		<species>Walleye</species>
+		<contestant>Brian Heinritz</contestant>
+		<phone>9204700182</phone>
+		<ticket>1487</ticket>
+	</record>
+	<record>
+		<place>8</place>
+		<prize>750</prize>
+		<weight>7.457</weight>
+		<species>Walleye</species>
+		<contestant>Mike Hetzer</contestant>
+		<phone>9204700182</phone>
+		<ticket>2800</ticket>
+	</record>
+	<record>
+		<place>9</place>
+		<prize>1000</prize>
+		<weight>7.382</weight>
+		<species>Walleye</species>
+		<contestant>Dustin Durrant</contestant>
+		<phone>9204700182</phone>
+		<ticket>126</ticket>
+	</record>
+	<record>
+		<place>10</place>
+		<prize>2015</prize>
+		<weight>7.356</weight>
+		<species>Walleye</species>
+		<contestant>Matthew Malczewski</contestant>
+		<phone>9204700182</phone>
+		<ticket>9029</ticket>
+	</record>
+	<record>
+		<place>15</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>6.89</weight>
+		<species>Walleye</species>
+		<contestant>Brandon Lewandowski</contestant>
+		<phone>9204700182</phone>
+		<ticket>10584</ticket>
+	</record>
+	<record>
+		<place>20</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>6.59</weight>
+		<species>Walleye</species>
+		<contestant>Mike Witkowski</contestant>
+		<phone>9204700182</phone>
+		<ticket>5994</ticket>
+	</record>
+	<record>
+		<place>25</place>
+		<prize>250</prize>
+		<weight>6.343</weight>
+		<species>Walleye</species>
+		<contestant>Matt Miller</contestant>
+		<phone>9204700182</phone>
+		<ticket>11399</ticket>
+	</record>
+	<record>
+		<place>30</place>
+		<prize>Guided Whitefish Trip for 4 - Sturgeon Bay Trophey Ice Fish</prize>
+		<weight>6.203</weight>
+		<species>Walleye</species>
+		<contestant>Aaron Grafenstein</contestant>
+		<phone>9204700182</phone>
+		<ticket>7194</ticket>
+	</record>
+	<record>
+		<place>35</place>
+		<prize>Frabill Fishing Package</prize>
+		<weight>6.096</weight>
+		<species>Walleye</species>
+		<contestant>Randy Lee</contestant>
+		<phone>9204700182</phone>
+		<ticket>8901</ticket>
+	</record>
+	<record>
+		<place>40</place>
+		<prize>Kansas Bow Hunt G &amp; S Whitetails</prize>
+		<weight>5.974</weight>
+		<species>Walleye</species>
+		<contestant>Amber Arntz</contestant>
+		<phone>9204700182</phone>
+		<ticket>4805</ticket>
+	</record>
+	<record>
+		<place>45</place>
+		<prize>Frabill I3 Series Suit XL</prize>
+		<weight>5.813</weight>
+		<species>Walleye</species>
+		<contestant>Tony Bridgeman</contestant>
+		<phone>9204700182</phone>
+		<ticket>3789</ticket>
+	</record>
+	<record>
+		<place>50</place>
+		<prize>500</prize>
+		<weight>5.711</weight>
+		<species>Walleye</species>
+		<contestant>Dan Breaker</contestant>
+		<phone>9204700182</phone>
+		<ticket>9097</ticket>
+	</record>
+	<record>
+		<place>55</place>
+		<prize>Marcum LX5 Ice System</prize>
+		<weight>5.526</weight>
+		<species>Walleye</species>
+		<contestant>Kevin Koeller</contestant>
+		<phone>9204700182</phone>
+		<ticket>8846</ticket>
+	</record>
+	<record>
+		<place>60</place>
+		<prize>Frabill I2 Series Suit L</prize>
+		<weight>5.318</weight>
+		<species>Walleye</species>
+		<contestant>Amber Arntz</contestant>
+		<phone>9204700182</phone>
+		<ticket>4804</ticket>
+	</record>
+	<record>
+		<place>65</place>
+		<prize>Smith &amp; Wesson M/P 15-22 .22LR Courtesy of Scheels</prize>
+		<weight>5.192</weight>
+		<species>Walleye</species>
+		<contestant>Craig Binder</contestant>
+		<phone>9204700182</phone>
+		<ticket>9075</ticket>
+	</record>
+	<record>
+		<place>70</place>
+		<prize>Canadian Fishing Trip for 2 - Eagle Lake Trophey Ice Fish</prize>
+		<weight>5.153</weight>
+		<species>Walleye</species>
+		<contestant>Andy Sowls</contestant>
+		<phone>9204700182</phone>
+		<ticket>8887</ticket>
+	</record>
+	<record>
+		<place>75</place>
+		<prize>250</prize>
+		<weight>4.958</weight>
+		<species>Walleye</species>
+		<contestant>John Francis</contestant>
+		<phone>9204700182</phone>
+		<ticket>5428</ticket>
+	</record>
+	<record>
+		<place>80</place>
+		<prize>Guided Whitefish Trip for 4 - Sturgeon Bay Trophey Ice Fish</prize>
+		<weight>4.914</weight>
+		<species>Walleye</species>
+		<contestant>Tim Winchester</contestant>
+		<phone>9204700182</phone>
+		<ticket>10580</ticket>
+	</record>
+	<record>
+		<place>85</place>
+		<prize>Jiffy Propane Auger</prize>
+		<weight>4.878</weight>
+		<species>Walleye</species>
+		<contestant>Ryan Pinkall</contestant>
+		<phone>9204700182</phone>
+		<ticket>7702</ticket>
+	</record>
+	<record>
+		<place>90</place>
+		<prize>Magic Products Fishing Package</prize>
+		<weight>4.81</weight>
+		<species>Walleye</species>
+		<contestant>Jeff O`Dell</contestant>
+		<phone>9204700182</phone>
+		<ticket>2617</ticket>
+	</record>
+	<record>
+		<place>95</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>4.769</weight>
+		<species>Walleye</species>
+		<contestant>Doug Enders</contestant>
+		<phone>9204700182</phone>
+		<ticket>7423</ticket>
+	</record>
+	<record>
+		<place>100</place>
+		<prize>1000</prize>
+		<weight>4.701</weight>
+		<species>Walleye</species>
+		<contestant>Jared Labbus</contestant>
+		<phone>9204700182</phone>
+		<ticket>7771</ticket>
+	</record>
+	<record>
+		<place>105</place>
+		<prize>Frabill I3 Series Suit XL</prize>
+		<weight>4.598</weight>
+		<species>Walleye</species>
+		<contestant>Aaron Hoffer</contestant>
+		<phone>9204700182</phone>
+		<ticket>4427</ticket>
+	</record>
+	<record>
+		<place>110</place>
+		<prize>Savage Axis w/Scope 30-06 Courtesy of Schells</prize>
+		<weight>4.559</weight>
+		<species>Walleye</species>
+		<contestant>Mike Olson</contestant>
+		<phone>9204700182</phone>
+		<ticket>12003</ticket>
+	</record>
+	<record>
+		<place>115</place>
+		<prize>Frabill I2 Series Suit L</prize>
+		<weight>4.498</weight>
+		<species>Walleye</species>
+		<contestant>Jordyn Henschel</contestant>
+		<phone>9204700182</phone>
+		<ticket>6000</ticket>
+	</record>
+	<record>
+		<place>120</place>
+		<prize>Mr Heater</prize>
+		<weight>4.443</weight>
+		<species>Walleye</species>
+		<contestant>Adam Tillis</contestant>
+		<phone>9204700182</phone>
+		<ticket>5351</ticket>
+	</record>
+	<record>
+		<place>125</place>
+		<prize>250</prize>
+		<weight>4.431</weight>
+		<species>Walleye</species>
+		<contestant>Rich Treleven</contestant>
+		<phone>9204700182</phone>
+		<ticket>1391</ticket>
+	</record>
+	<record>
+		<place>130</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>4.388</weight>
+		<species>Walleye</species>
+		<contestant>Neal Fjerstad</contestant>
+		<phone>9204700182</phone>
+		<ticket>6863</ticket>
+	</record>
+	<record>
+		<place>135</place>
+		<prize>4 Night / 3 Day Canadian Fishing Trip Duck Bay Lodge</prize>
+		<weight>4.373</weight>
+		<species>Walleye</species>
+		<contestant>Bill Senner</contestant>
+		<phone>9204700182</phone>
+		<ticket>951</ticket>
+	</record>
+	<record>
+		<place>140</place>
+		<prize>Frabill Fishing Package</prize>
+		<weight>4.339</weight>
+		<species>Walleye</species>
+		<contestant>Jake Liedke</contestant>
+		<phone>9204700182</phone>
+		<ticket>9608</ticket>
+	</record>
+	<record>
+		<place>145</place>
+		<prize>Frabill I3 Series Suit XL</prize>
+		<weight>4.283</weight>
+		<species>Walleye</species>
+		<contestant>Steven Anderson</contestant>
+		<phone>9204700182</phone>
+		<ticket>4518</ticket>
+	</record>
+	<record>
+		<place>150</place>
+		<prize>2014 Ford F150 Extended Cab</prize>
+		<weight>4.261</weight>
+		<species>Walleye</species>
+		<contestant>Jeff Euclide</contestant>
+		<phone>9204700182</phone>
+		<ticket>1095</ticket>
+	</record>
+	<record>
+		<place>155</place>
+		<prize>Guided Fishing Trip Green Lake/Lake Winn Bill &amp; Gills Guide Service</prize>
+		<weight>4.237</weight>
+		<species>Walleye</species>
+		<contestant>Brett Walser</contestant>
+		<phone>9204700182</phone>
+		<ticket>5092</ticket>
+	</record>
+	<record>
+		<place>160</place>
+		<prize>Kansas Bow Hunt C &amp; S Whitetails</prize>
+		<weight>4.174</weight>
+		<species>Walleye</species>
+		<contestant>Rodney Flintrop</contestant>
+		<phone>9204700182</phone>
+		<ticket>337</ticket>
+	</record>
+	<record>
+		<place>165</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>4.148</weight>
+		<species>Walleye</species>
+		<contestant>Ryan Murray</contestant>
+		<phone>9204700182</phone>
+		<ticket>4384</ticket>
+	</record>
+	<record>
+		<place>170</place>
+		<prize>Marcum LX5 Ice System</prize>
+		<weight>4.11</weight>
+		<species>Walleye</species>
+		<contestant>Mike Kallas</contestant>
+		<phone>9204700182</phone>
+		<ticket>3068</ticket>
+	</record>
+	<record>
+		<place>175</place>
+		<prize>250</prize>
+		<weight>4.075</weight>
+		<species>Walleye</species>
+		<contestant>Chris Spath</contestant>
+		<phone>9204700182</phone>
+		<ticket>9622</ticket>
+	</record>
+	<record>
+		<place>180</place>
+		<prize>Frabill Fishing Package</prize>
+		<weight>4.044</weight>
+		<species>Walleye</species>
+		<contestant>Mike Kamp</contestant>
+		<phone>9204700182</phone>
+		<ticket>3612</ticket>
+	</record>
+	<record>
+		<place>185</place>
+		<prize>Frabill Outpost HUB - Thermal</prize>
+		<weight>4.033</weight>
+		<species>Walleye</species>
+		<contestant>Eric Nigbor</contestant>
+		<phone>9204700182</phone>
+		<ticket>2953</ticket>
+	</record>
+	<record>
+		<place>190</place>
+		<prize>Frabill I2 Series Suit L</prize>
+		<weight>4.001</weight>
+		<species>Walleye</species>
+		<contestant>Matt Litzau</contestant>
+		<phone>9204700182</phone>
+		<ticket>5539</ticket>
+	</record>
+	<record>
+		<place>195</place>
+		<prize>Frabill Windproof Fleece Jacket</prize>
+		<weight>3.981</weight>
+		<species>Walleye</species>
+		<contestant>Chris Goffard</contestant>
+		<phone>9204700182</phone>
+		<ticket>1183</ticket>
+	</record>
+	<record>
+		<place>200</place>
+		<prize>Kansas Gun Hunt C&amp; S Whitetails</prize>
+		<weight>3.959</weight>
+		<species>Walleye</species>
+		<contestant>Jim Sewall</contestant>
+		<phone>9204700182</phone>
+		<ticket>7679</ticket>
+	</record>
+	<record>
+		<place>205</place>
+		<prize>Frabill I2 Series Suit L</prize>
+		<weight>3.93</weight>
+		<species>Walleye</species>
+		<contestant>Nick Thern</contestant>
+		<phone>9204700182</phone>
+		<ticket>4761</ticket>
+	</record>
+	<record>
+		<place>210</place>
+		<prize>Mr Heater</prize>
+		<weight>3.889</weight>
+		<species>Walleye</species>
+		<contestant>Ryan Paepke</contestant>
+		<phone>9204700182</phone>
+		<ticket>5295</ticket>
+	</record>
+	<record>
+		<place>215</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>3.843</weight>
+		<species>Walleye</species>
+		<contestant>Todd Grota</contestant>
+		<phone>9204700182</phone>
+		<ticket>10757</ticket>
+	</record>
+	<record>
+		<place>220</place>
+		<prize>Mr Heater</prize>
+		<weight>3.809</weight>
+		<species>Walleye</species>
+		<contestant>Taylor Hoffman</contestant>
+		<phone>9204700182</phone>
+		<ticket>7902</ticket>
+	</record>
+	<record>
+		<place>225</place>
+		<prize>250</prize>
+		<weight>3.78</weight>
+		<species>Walleye</species>
+		<contestant>Luke Leanna</contestant>
+		<phone>9204700182</phone>
+		<ticket>5490</ticket>
+	</record>
+	<record>
+		<place>230</place>
+		<prize>Frabill Fishing Package</prize>
+		<weight>3.763</weight>
+		<species>Walleye</species>
+		<contestant>Tim Winchester</contestant>
+		<phone>9204700182</phone>
+		<ticket>10577</ticket>
+	</record>
+	<record>
+		<place>235</place>
+		<prize>Guided Whitefish Trip for 4 - Sturgeon Bay Trophey Ice Fish</prize>
+		<weight>3.742</weight>
+		<species>Walleye</species>
+		<contestant>Anthony Groh</contestant>
+		<phone>9204700182</phone>
+		<ticket>3539</ticket>
+	</record>
+	<record>
+		<place>240</place>
+		<prize>Jiffy Propane Auger</prize>
+		<weight>3.711</weight>
+		<species>Walleye</species>
+		<contestant>Ann Wilcox-Meilahn</contestant>
+		<phone>9204700182</phone>
+		<ticket>3275</ticket>
+	</record>
+	<record>
+		<place>245</place>
+		<prize>Frabill Outpost HUB - Thermal</prize>
+		<weight>3.682</weight>
+		<species>Walleye</species>
+		<contestant>Eric Vander Wielen</contestant>
+		<phone>9204700182</phone>
+		<ticket>1760</ticket>
+	</record>
+	<record>
+		<place>250</place>
+		<prize>500</prize>
+		<weight>3.667</weight>
+		<species>Walleye</species>
+		<contestant>Lance Sweeting</contestant>
+		<phone>9204700182</phone>
+		<ticket>2774</ticket>
+	</record>
+	<record>
+		<place>255</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>3.652</weight>
+		<species>Walleye</species>
+		<contestant>Casey Rinas</contestant>
+		<phone>9204700182</phone>
+		<ticket>4798</ticket>
+	</record>
+	<record>
+		<place>260</place>
+		<prize>Frabill Fishing Package</prize>
+		<weight>3.632</weight>
+		<species>Walleye</species>
+		<contestant>Jessie Proffit</contestant>
+		<phone>9204700182</phone>
+		<ticket>192</ticket>
+	</record>
+	<record>
+		<place>265</place>
+		<prize>Grizzly 75 Cooler</prize>
+		<weight>3.605</weight>
+		<species>Walleye</species>
+		<contestant>Tom Anfinson</contestant>
+		<phone>9204700182</phone>
+		<ticket>11406</ticket>
+	</record>
+	<record>
+		<place>270</place>
+		<prize>Canadian Fishing Trip for 2 - Eagle Lake Trophey Ice Fish</prize>
+		<weight>3.562</weight>
+		<species>Walleye</species>
+		<contestant>Garrick Kuhn</contestant>
+		<phone>9204700182</phone>
+		<ticket>8767</ticket>
+	</record>
+	<record>
+		<place>275</place>
+		<prize>250</prize>
+		<weight>3.511</weight>
+		<species>Walleye</species>
+		<contestant>Nathan Thrall</contestant>
+		<phone>9204700182</phone>
+		<ticket>9407</ticket>
+	</record>
+	<record>
+		<place>280</place>
+		<prize>Frabill I2 Series Suit L</prize>
+		<weight>3.452</weight>
+		<species>Walleye</species>
+		<contestant>Nate Welhouse</contestant>
+		<phone>9204700182</phone>
+		<ticket>1346</ticket>
+	</record>
+	<record>
+		<place>285</place>
+		<prize>Lowrance Elite 7 Sonar</prize>
+		<weight>3.439</weight>
+		<species>Walleye</species>
+		<contestant>James Durrant</contestant>
+		<phone>9204700182</phone>
+		<ticket>247</ticket>
+	</record>
+	<record>
+		<place>290</place>
+		<prize>Frabill Ice Shack - Trekker DLX</prize>
+		<weight>3.388</weight>
+		<species>Walleye</species>
+		<contestant>Mike Schroeder</contestant>
+		<phone>9204700182</phone>
+		<ticket>3301</ticket>
+	</record>
+	<record>
+		<place>295</place>
+		<prize>Frabill Fishing Package</prize>
+		<weight>3.377</weight>
+		<species>Walleye</species>
+		<contestant>Ken Wagner</contestant>
+		<phone>9204700182</phone>
+		<ticket>4860</ticket>
+	</record>
+	<record>
+		<place>300</place>
+		<prize>1000</prize>
+		<weight>3.342</weight>
+		<species>Walleye</species>
+		<contestant>Randy  Montgomery</contestant>
+		<phone>9204700182</phone>
+		<ticket>3237</ticket>
+	</record>
+	<record>
+		<place>305</place>
+		<prize>Grizzly 40 Cooler </prize>
+		<weight>3.315</weight>
+		<species>Walleye</species>
+		<contestant>Brad Krause</contestant>
+		<phone>9204700182</phone>
+		<ticket>3717</ticket>
+	</record>
+	<record>
+		<place>310</place>
+		<prize>Sunglasses by H3O</prize>
+		<weight>3.299</weight>
+		<species>Walleye</species>
+		<contestant>Andrew Zullner</contestant>
+		<phone>9204700182</phone>
+		<ticket>1419</ticket>
+	</record>
+	<record>
+		<place>315</place>
+		<prize>Guided Whitefish Trip for 4 - Sturgeon Bay Trophey Ice Fish</prize>
+		<weight>3.272</weight>
+		<species>Walleye</species>
+		<contestant>Russ Ory</contestant>
+		<phone>9204700182</phone>
+		<ticket>9318</ticket>
+	</record>
+	<record>
+		<place>320</place>
+		<prize>Frabill I2 Series Suit XL</prize>
+		<weight>3.258</weight>
+		<species>Walleye</species>
+		<contestant>Duane Haedt</contestant>
+		<phone>9204700182</phone>
+		<ticket>11315</ticket>
+	</record>
+	<record>
+		<place>325</place>
+		<prize>250</prize>
+		<weight>3.251</weight>
+		<species>Walleye</species>
+		<contestant>Ed Wieting</contestant>
+		<phone>9204700182</phone>
+		<ticket>6841</ticket>
+	</record>
+	<record>
+		<place>330</place>
+		<prize>Frabill I2 Series Suit XL</prize>
+		<weight>3.23</weight>
+		<species>Walleye</species>
+		<contestant>Ryan Page</contestant>
+		<phone>9204700182</phone>
+		<ticket>1182</ticket>
+	</record>
+	<record>
+		<place>335</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>3.199</weight>
+		<species>Walleye</species>
+		<contestant>Jenny Adkins</contestant>
+		<phone>9204700182</phone>
+		<ticket>7206</ticket>
+	</record>
+	<record>
+		<place>340</place>
+		<prize>Frabill Outpost HUB - Thermal</prize>
+		<weight>3.187</weight>
+		<species>Walleye</species>
+		<contestant>Jesse Lawatsch</contestant>
+		<phone>9204700182</phone>
+		<ticket>2380</ticket>
+	</record>
+	<record>
+		<place>345</place>
+		<prize>Benelli Nova Black Synthetic 12ga Courtesy of Scheels</prize>
+		<weight>3.132</weight>
+		<species>Walleye</species>
+		<contestant>Casey Schneider</contestant>
+		<phone>9204700182</phone>
+		<ticket>7173</ticket>
+	</record>
+	<record>
+		<place>350</place>
+		<prize>500</prize>
+		<weight>3.099</weight>
+		<species>Walleye</species>
+		<contestant>Ryan Kallas</contestant>
+		<phone>9204700182</phone>
+		<ticket>8749</ticket>
+	</record>
+	<record>
+		<place>355</place>
+		<prize>Mr Heater Big Buddy</prize>
+		<weight>3.071</weight>
+		<species>Walleye</species>
+		<contestant>Nick Laszewski</contestant>
+		<phone>9204700182</phone>
+		<ticket>7812</ticket>
+	</record>
+	<record>
+		<place>360</place>
+		<prize>Jiffy Propane Auger</prize>
+		<weight>3.02</weight>
+		<species>Walleye</species>
+		<contestant>Todd Klundt</contestant>
+		<phone>9204700182</phone>
+		<ticket>1870</ticket>
+	</record>
+	<record>
+		<place>365</place>
+		<prize>Frabill Ice Shack Trekker DLX</prize>
+		<weight>2.995</weight>
+		<species>Walleye</species>
+		<contestant>Travis Swisher</contestant>
+		<phone>9204700182</phone>
+		<ticket>6153</ticket>
+	</record>
+	<record>
+		<place>370</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>2.978</weight>
+		<species>Walleye</species>
+		<contestant>Brett Walser</contestant>
+		<phone>9204700182</phone>
+		<ticket>5091</ticket>
+	</record>
+	<record>
+		<place>375</place>
+		<prize>250</prize>
+		<weight>2.95</weight>
+		<species>Walleye</species>
+		<contestant>Barry Grimm</contestant>
+		<phone>9204700182</phone>
+		<ticket>4426</ticket>
+	</record>
+	<record>
+		<place>380</place>
+		<prize>Marcum LX5 Ice System</prize>
+		<weight>2.926</weight>
+		<species>Walleye</species>
+		<contestant>Kevin Biertzer</contestant>
+		<phone>9204700182</phone>
+		<ticket>6940</ticket>
+	</record>
+	<record>
+		<place>385</place>
+		<prize>Frabill Fishing Package</prize>
+		<weight>2.886</weight>
+		<species>Walleye</species>
+		<contestant>Russ Ory</contestant>
+		<phone>9204700182</phone>
+		<ticket>9317</ticket>
+	</record>
+	<record>
+		<place>390</place>
+		<prize>Sunglasses by H3O</prize>
+		<weight>2.859</weight>
+		<species>Walleye</species>
+		<contestant>Garret Pearson</contestant>
+		<phone>9204700182</phone>
+		<ticket>961</ticket>
+	</record>
+	<record>
+		<place>395</place>
+		<prize>Frabill I2 Series Suit L</prize>
+		<weight>2.837</weight>
+		<species>Walleye</species>
+		<contestant>Craig Hable</contestant>
+		<phone>9204700182</phone>
+		<ticket>4699</ticket>
+	</record>
+	<record>
+		<place>400</place>
+		<prize>Lund 1875 Imact with Mercury 150 Fourstroke Motor</prize>
+		<weight>2.824</weight>
+		<species>Walleye</species>
+		<contestant>Andrew Manteufel</contestant>
+		<phone>9204700182</phone>
+		<ticket>1654</ticket>
+	</record>
+	<record>
+		<place>405</place>
+		<prize>Frabill I2 Series Suit L</prize>
+		<weight>2.791</weight>
+		<species>Walleye</species>
+		<contestant>Peter H Schroeder</contestant>
+		<phone>9204700182</phone>
+		<ticket>9085</ticket>
+	</record>
+	<record>
+		<place>410</place>
+		<prize>Grizzly 75 Cooler </prize>
+		<weight>2.774</weight>
+		<species>Walleye</species>
+		<contestant>Amber Kornack</contestant>
+		<phone>9204700182</phone>
+		<ticket>9130</ticket>
+	</record>
+	<record>
+		<place>415</place>
+		<prize>Plano Prize Package</prize>
+		<weight>2.752</weight>
+		<species>Walleye</species>
+		<contestant>Kim Berg</contestant>
+		<phone>9204700182</phone>
+		<ticket>2521</ticket>
+	</record>
+	<record>
+		<place>420</place>
+		<prize>Lowrance Elite 7 Sonar</prize>
+		<weight>2.726</weight>
+		<species>Walleye</species>
+		<contestant>Mike Sieben</contestant>
+		<phone>9204700182</phone>
+		<ticket>3861</ticket>
+	</record>
+	<record>
+		<place>425</place>
+		<prize>250</prize>
+		<weight>2.706</weight>
+		<species>Walleye</species>
+		<contestant>Todd Raddatz</contestant>
+		<phone>9204700182</phone>
+		<ticket>4084</ticket>
+	</record>
+	<record>
+		<place>430</place>
+		<prize>Frabill Ice Shack - Trekker DLX</prize>
+		<weight>2.669</weight>
+		<species>Walleye</species>
+		<contestant>Travis Swisher</contestant>
+		<phone>9204700182</phone>
+		<ticket>6154</ticket>
+	</record>
+	<record>
+		<place>435</place>
+		<prize>1/2 Day Guided Fishing Trip for 2 - Lake Winn. Kurts Hooked Up Guide Service</prize>
+		<weight>2.656</weight>
+		<species>Walleye</species>
+		<contestant>Matthew Proctor</contestant>
+		<phone>9204700182</phone>
+		<ticket>8807</ticket>
+	</record>
+	<record>
+		<place>440</place>
+		<prize>Skinzit</prize>
+		<weight>2.639</weight>
+		<species>Walleye</species>
+		<contestant>Peter Keyser</contestant>
+		<phone>9204700182</phone>
+		<ticket>6372</ticket>
+	</record>
+	<record>
+		<place>445</place>
+		<prize>Frabill Fishing Package</prize>
+		<weight>2.622</weight>
+		<species>Walleye</species>
+		<contestant>Jesse Josephs</contestant>
+		<phone>9204700182</phone>
+		<ticket>8463</ticket>
+	</record>
+	<record>
+		<place>450</place>
+		<prize>500</prize>
+		<weight>2.605</weight>
+		<species>Walleye</species>
+		<contestant>Jeff Freel</contestant>
+		<phone>9204700182</phone>
+		<ticket>4547</ticket>
+	</record>
+	<record>
+		<place>455</place>
+		<prize>Marcum LX5 Ice System</prize>
+		<weight>2.594</weight>
+		<species>Walleye</species>
+		<contestant>Dave Jannette</contestant>
+		<phone>9204700182</phone>
+		<ticket>7153</ticket>
+	</record>
+	<record>
+		<place>460</place>
+		<prize>Grizzly 75 Cooler</prize>
+		<weight>2.586</weight>
+		<species>Walleye</species>
+		<contestant>Jordan Mock</contestant>
+		<phone>9204700182</phone>
+		<ticket>3694</ticket>
+	</record>
+	<record>
+		<place>465</place>
+		<prize>Plano Prize Package</prize>
+		<weight>2.563</weight>
+		<species>Walleye</species>
+		<contestant>Tim Badtke</contestant>
+		<phone>9204700182</phone>
+		<ticket>1075</ticket>
+	</record>
+	<record>
+		<place>470</place>
+		<prize>Canadian Fishing Trip for 2 - Eagle Lake Trophey Ice Fish</prize>
+		<weight>2.55</weight>
+		<species>Walleye</species>
+		<contestant>Adam Bose</contestant>
+		<phone>9204700182</phone>
+		<ticket>4806</ticket>
+	</record>
+	<record>
+		<place>475</place>
+		<prize>250</prize>
+		<weight>2.543</weight>
+		<species>Walleye</species>
+		<contestant>Travis Harrington</contestant>
+		<phone>9204700182</phone>
+		<ticket>920</ticket>
+	</record>
+	<record>
+		<place>480</place>
+		<prize>Frabill I2 Series Suit L</prize>
+		<weight>2.531</weight>
+		<species>Walleye</species>
+		<contestant>Kevin Kellogg</contestant>
+		<phone>9204700182</phone>
+		<ticket>9016</ticket>
+	</record>
+	<record>
+		<place>485</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>2.522</weight>
+		<species>Walleye</species>
+		<contestant>Terry Eichinger</contestant>
+		<phone>9204700182</phone>
+		<ticket>9068</ticket>
+	</record>
+	<record>
+		<place>490</place>
+		<prize>Frabill Fishing Package</prize>
+		<weight>2.509</weight>
+		<species>Walleye</species>
+		<contestant>Ryan Kallas</contestant>
+		<phone>9204700182</phone>
+		<ticket>9079</ticket>
+	</record>
+	<record>
+		<place>495</place>
+		<prize>Mr Heater Big Buddy</prize>
+		<weight>2.5</weight>
+		<species>Walleye</species>
+		<contestant>Paul Pfister</contestant>
+		<phone>9204700182</phone>
+		<ticket>6840</ticket>
+	</record>
+	<record>
+		<place>500</place>
+		<prize>1000</prize>
+		<weight>2.486</weight>
+		<species>Walleye</species>
+		<contestant>Chris Bendickson</contestant>
+		<phone>9204700182</phone>
+		<ticket>7757</ticket>
+	</record>
+	<record>
+		<place>505</place>
+		<prize>Grizzly 75 Cooler</prize>
+		<weight>2.47</weight>
+		<species>Walleye</species>
+		<contestant>Tim Eickert</contestant>
+		<phone>9204700182</phone>
+		<ticket>1102</ticket>
+	</record>
+	<record>
+		<place>510</place>
+		<prize>Mills Fleet Farm Gift Certificate</prize>
+		<weight>2.446</weight>
+		<species>Walleye</species>
+		<contestant>Tyler Penovich</contestant>
+		<phone>9204700182</phone>
+		<ticket>2097</ticket>
+	</record>
+	<record>
+		<place>515</place>
+		<prize>NFL Alumni Autographed Apparel</prize>
+		<weight>2.439</weight>
+		<species>Walleye</species>
+		<contestant>Ron Parrish</contestant>
+		<phone>9204700182</phone>
+		<ticket>376</ticket>
+	</record>
+	<record>
+		<place>520</place>
+		<prize>Skinzit</prize>
+		<weight>2.397</weight>
+		<species>Walleye</species>
+		<contestant>Joseph Noffke</contestant>
+		<phone>9204700182</phone>
+		<ticket>8932</ticket>
+	</record>
+	<record>
+		<place>525</place>
+		<prize>250</prize>
+		<weight>2.388</weight>
+		<species>Walleye</species>
+		<contestant>Tyler Wegner</contestant>
+		<phone>9204700182</phone>
+		<ticket>17</ticket>
+	</record>
+	<record>
+		<place>530</place>
+		<prize>TRS Gift Certificate</prize>
+		<weight>2.374</weight>
+		<species>Walleye</species>
+		<contestant>Russ Beil</contestant>
+		<phone>9204700182</phone>
+		<ticket>10440</ticket>
+	</record>
+	<record>
+		<place>535</place>
+		<prize>Skinzit</prize>
+		<weight>2.371</weight>
+		<species>Walleye</species>
+		<contestant>Rick Bretl</contestant>
+		<phone>9204700182</phone>
+		<ticket>5629</ticket>
+	</record>
+	<record>
+		<place>540</place>
+		<prize>Grizzly 75 Cooler</prize>
+		<weight>2.358</weight>
+		<species>Walleye</species>
+		<contestant>Jeff Brauer</contestant>
+		<phone>9204700182</phone>
+		<ticket>1339</ticket>
+	</record>
+	<record>
+		<place>545</place>
+		<prize>TRS Gift Certificate</prize>
+		<weight>2.35</weight>
+		<species>Walleye</species>
+		<contestant>Tim Winchester</contestant>
+		<phone>9204700182</phone>
+		<ticket>10578</ticket>
+	</record>
+	<record>
+		<place>550</place>
+		<prize>500</prize>
+		<weight>2.34</weight>
+		<species>Walleye</species>
+		<contestant>Perry Harrer</contestant>
+		<phone>9204700182</phone>
+		<ticket>7781</ticket>
+	</record>
+	<record>
+		<place>555</place>
+		<prize>Skinzit</prize>
+		<weight>2.329</weight>
+		<species>Walleye</species>
+		<contestant>Clint Kaskavitch</contestant>
+		<phone>9204700182</phone>
+		<ticket>1073</ticket>
+	</record>
+	<record>
+		<place>560</place>
+		<prize>Canadian Fishing Trip for 2 - Eagle Lake Trophey Ice Fish</prize>
+		<weight>2.317</weight>
+		<species>Walleye</species>
+		<contestant>Korey Sprengel</contestant>
+		<phone>9204700182</phone>
+		<ticket>8497</ticket>
+	</record>
+	<record>
+		<place>565</place>
+		<prize>NFL Alumni Autographed Apparel</prize>
+		<weight>2.312</weight>
+		<species>Walleye</species>
+		<contestant>Samuel Slabe</contestant>
+		<phone>9204700182</phone>
+		<ticket>7358</ticket>
+	</record>
+	<record>
+		<place>570</place>
+		<prize>TRS Gift Certificate</prize>
+		<weight>2.308</weight>
+		<species>Walleye</species>
+		<contestant>Scott Kelly</contestant>
+		<phone>9204700182</phone>
+		<ticket>7869</ticket>
+	</record>
+	<record>
+		<place>575</place>
+		<prize>250</prize>
+		<weight>2.302</weight>
+		<species>Walleye</species>
+		<contestant>Joshua Pecha</contestant>
+		<phone>9204700182</phone>
+		<ticket>6301</ticket>
+	</record>
+	<record>
+		<place>580</place>
+		<prize>Skinzit</prize>
+		<weight>2.293</weight>
+		<species>Walleye</species>
+		<contestant>Jason Haensgen</contestant>
+		<phone>9204700182</phone>
+		<ticket>7418</ticket>
+	</record>
+	<record>
+		<place>585</place>
+		<prize>Battle On Bago Prize Package</prize>
+		<weight>2.283</weight>
+		<species>Walleye</species>
+		<contestant>Dylan Banker</contestant>
+		<phone>9204700182</phone>
+		<ticket>11236</ticket>
+	</record>
+	<record>
+		<place>590</place>
+		<prize>Grizzly 20 Cooler </prize>
+		<weight>2.277</weight>
+		<species>Walleye</species>
+		<contestant>Keith Herman</contestant>
+		<phone>9204700182</phone>
+		<ticket>6143</ticket>
+	</record>
+	<record>
+		<place>595</place>
+		<prize>Rivers North Guided Fly Fishing Trip for 2 - MI Original UP Fly Fishing Guide</prize>
+		<weight>2.269</weight>
+		<species>Walleye</species>
+		<contestant>John Leroy</contestant>
+		<phone>9204700182</phone>
+		<ticket>2737</ticket>
+	</record>
+	<record>
+		<place>600</place>
+		<prize>Lund 1650 Rebel XL with Mercury 90hp Motor</prize>
+		<weight>2.257</weight>
+		<species>Walleye</species>
+		<contestant>Mike Neitzke</contestant>
+		<phone>9204700182</phone>
+		<ticket>3281</ticket>
+	</record>
+	<record>
+		<place>605</place>
+		<prize>TRS Gift Certificate</prize>
+		<weight>2.244</weight>
+		<species>Walleye</species>
+		<contestant>Jon Zellner</contestant>
+		<phone>9204700182</phone>
+		<ticket>7713</ticket>
+	</record>
+	<record>
+		<place>610</place>
+		<prize>Lake Michigan Charter Trip for 6</prize>
+		<weight>2.237</weight>
+		<species>Walleye</species>
+		<contestant>Jeremy Hurst</contestant>
+		<phone>9204700182</phone>
+		<ticket>3333</ticket>
+	</record>
+	<record>
+		<place>615</place>
+		<prize>NFL Alumni Autographed Apparel</prize>
+		<weight>2.232</weight>
+		<species>Walleye</species>
+		<contestant>Kenneth Woelfel</contestant>
+		<phone>9204700182</phone>
+		<ticket>437</ticket>
+	</record>
+	<record>
+		<place>620</place>
+		<prize>Grizzly 75 Cooler </prize>
+		<weight>2.226</weight>
+		<species>Walleye</species>
+		<contestant>Chris Christopherson</contestant>
+		<phone>9204700182</phone>
+		<ticket>5185</ticket>
+	</record>
+	<record>
+		<place>625</place>
+		<prize>250</prize>
+		<weight>2.221</weight>
+		<species>Walleye</species>
+		<contestant>Nickolas Stoflet</contestant>
+		<phone>9204700182</phone>
+		<ticket>5721</ticket>
+	</record>
+	<record>
+		<place>630</place>
+		<prize>Guided Fishing Trip Green Lake/Lake Winn Bill &amp; Gills Guide Service</prize>
+		<weight>2.213</weight>
+		<species>Walleye</species>
+		<contestant>Robert Newell</contestant>
+		<phone>9204700182</phone>
+		<ticket>3195</ticket>
+	</record>
+	<record>
+		<place>635</place>
+		<prize>Frabill F2 Surge Rainsuit L</prize>
+		<weight>2.209</weight>
+		<species>Walleye</species>
+		<contestant>Tyler Egan</contestant>
+		<phone>9204700182</phone>
+		<ticket>2417</ticket>
+	</record>
+	<record>
+		<place>640</place>
+		<prize>NFL Alumni Autographed Apparel</prize>
+		<weight>2.202</weight>
+		<species>Walleye</species>
+		<contestant>Beth Tews</contestant>
+		<phone>9204700182</phone>
+		<ticket>1425</ticket>
+	</record>
+	<record>
+		<place>645</place>
+		<prize>Grizzly 40 Cooler</prize>
+		<weight>2.195</weight>
+		<species>Walleye</species>
+		<contestant>Jeff Piazza</contestant>
+		<phone>9204700182</phone>
+		<ticket>8912</ticket>
+	</record>
+	<record>
+		<place>650</place>
+		<prize>500</prize>
+		<weight>2.189</weight>
+		<species>Walleye</species>
+		<contestant>Mike Cook</contestant>
+		<phone>9204700182</phone>
+		<ticket>11109</ticket>
+	</record>
+	<record>
+		<place>655</place>
+		<prize>Battle On Bago Prize Package</prize>
+		<weight>2.184</weight>
+		<species>Walleye</species>
+		<contestant>Paul Bernier</contestant>
+		<phone>9204700182</phone>
+		<ticket>8821</ticket>
+	</record>
+	<record>
+		<place>660</place>
+		<prize>TRS Gift Certificate</prize>
+		<weight>2.179</weight>
+		<species>Walleye</species>
+		<contestant>Garth Clark</contestant>
+		<phone>9204700182</phone>
+		<ticket>2390</ticket>
+	</record>
+	<record>
+		<place>665</place>
+		<prize>Grizzly 75 Cooler</prize>
+		<weight>2.176</weight>
+		<species>Walleye</species>
+		<contestant>Ross Mueller</contestant>
+		<phone>9204700182</phone>
+		<ticket>12097</ticket>
+	</record>
+	<record>
+		<place>670</place>
+		<prize>Frabill F2 Surge Rainsuit L</prize>
+		<weight>2.17</weight>
+		<species>Walleye</species>
+		<contestant>Brad Sarder</contestant>
+		<phone>9204700182</phone>
+		<ticket>6389</ticket>
+	</record>
+	<record>
+		<place>675</place>
+		<prize>250</prize>
+		<weight>2.164</weight>
+		<species>Walleye</species>
+		<contestant>Adam Downs</contestant>
+		<phone>9204700182</phone>
+		<ticket>7909</ticket>
+	</record>
+	<record>
+		<place>680</place>
+		<prize>Battle On Bago Prize Package</prize>
+		<weight>2.161</weight>
+		<species>Walleye</species>
+		<contestant>Matthew Butkiewicz</contestant>
+		<phone>9204700182</phone>
+		<ticket>2761</ticket>
+	</record>
+	<record>
+		<place>685</place>
+		<prize>NFL Alumni Autographed Apparel</prize>
+		<weight>2.154</weight>
+		<species>Walleye</species>
+		<contestant>Joe Mayefski</contestant>
+		<phone>9204700182</phone>
+		<ticket>11909</ticket>
+	</record>
+	<record>
+		<place>690</place>
+		<prize>Grizzly 40 Cooler </prize>
+		<weight>2.149</weight>
+		<species>Walleye</species>
+		<contestant>Eric Steinman</contestant>
+		<phone>9204700182</phone>
+		<ticket>402</ticket>
+	</record>
+	<record>
+		<place>695</place>
+		<prize>Battle On Bago Prize Package</prize>
+		<weight>2.142</weight>
+		<species>Walleye</species>
+		<contestant>Jim Reinert</contestant>
+		<phone>9204700182</phone>
+		<ticket>7631</ticket>
+	</record>
+	<record>
+		<place>700</place>
+		<prize>1000</prize>
+		<weight>2.138</weight>
+		<species>Walleye</species>
+		<contestant>Lance Mccue</contestant>
+		<phone>9204700182</phone>
+		<ticket>3445</ticket>
+	</record>
+	<record>
+		<place>705</place>
+		<prize>Plano Fishing Package</prize>
+		<weight>2.134</weight>
+		<species>Walleye</species>
+		<contestant>Tom Nelson</contestant>
+		<phone>9204700182</phone>
+		<ticket>11828</ticket>
+	</record>
+	<record>
+		<place>710</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>2.13</weight>
+		<species>Walleye</species>
+		<contestant>Dennis Coenen</contestant>
+		<phone>9204700182</phone>
+		<ticket>1045</ticket>
+	</record>
+	<record>
+		<place>715</place>
+		<prize>Grizzly 20 Cooler</prize>
+		<weight>2.121</weight>
+		<species>Walleye</species>
+		<contestant>John Miller</contestant>
+		<phone>9204700182</phone>
+		<ticket>6326</ticket>
+	</record>
+	<record>
+		<place>720</place>
+		<prize>Battle On Bago Prize Package</prize>
+		<weight>2.113</weight>
+		<species>Walleye</species>
+		<contestant>Brad Mueller</contestant>
+		<phone>9204700182</phone>
+		<ticket>1393</ticket>
+	</record>
+	<record>
+		<place>725</place>
+		<prize>250</prize>
+		<weight>2.106</weight>
+		<species>Walleye</species>
+		<contestant>David Skinner</contestant>
+		<phone>9204700182</phone>
+		<ticket>7635</ticket>
+	</record>
+	<record>
+		<place>730</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>2.097</weight>
+		<species>Walleye</species>
+		<contestant>Carmen Tilidetzke</contestant>
+		<phone>9204700182</phone>
+		<ticket>653</ticket>
+	</record>
+	<record>
+		<place>735</place>
+		<prize>Frabill F2 Surge Rainsuit XL</prize>
+		<weight>2.094</weight>
+		<species>Walleye</species>
+		<contestant>Josh Emerson</contestant>
+		<phone>9204700182</phone>
+		<ticket>10188</ticket>
+	</record>
+	<record>
+		<place>740</place>
+		<prize>Frabill I3 Series Suit XL</prize>
+		<weight>2.086</weight>
+		<species>Walleye</species>
+		<contestant>Randy Finley</contestant>
+		<phone>9204700182</phone>
+		<ticket>461</ticket>
+	</record>
+	<record>
+		<place>745</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>2.078</weight>
+		<species>Walleye</species>
+		<contestant>Tim Curran</contestant>
+		<phone>9204700182</phone>
+		<ticket>4553</ticket>
+	</record>
+	<record>
+		<place>750</place>
+		<prize>500</prize>
+		<weight>2.073</weight>
+		<species>Walleye</species>
+		<contestant>Wes Robl</contestant>
+		<phone>9204700182</phone>
+		<ticket>2530</ticket>
+	</record>
+	<record>
+		<place>755</place>
+		<prize>Grizzly  20 Cooler</prize>
+		<weight>2.069</weight>
+		<species>Walleye</species>
+		<contestant>Jim Bruckner</contestant>
+		<phone>9204700182</phone>
+		<ticket>10744</ticket>
+	</record>
+	<record>
+		<place>760</place>
+		<prize>Plano Fishing Package</prize>
+		<weight>2.066</weight>
+		<species>Walleye</species>
+		<contestant>Bob Consolo</contestant>
+		<phone>9204700182</phone>
+		<ticket>6188</ticket>
+	</record>
+	<record>
+		<place>765</place>
+		<prize>Elk Haven Colorado</prize>
+		<weight>2.061</weight>
+		<species>Walleye</species>
+		<contestant>Gordon Schwarz</contestant>
+		<phone>9204700182</phone>
+		<ticket>7445</ticket>
+	</record>
+	<record>
+		<place>770</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>2.056</weight>
+		<species>Walleye</species>
+		<contestant>John Neubauer</contestant>
+		<phone>9204700182</phone>
+		<ticket>10302</ticket>
+	</record>
+	<record>
+		<place>775</place>
+		<prize>250</prize>
+		<weight>2.042</weight>
+		<species>Walleye</species>
+		<contestant>Travis Vanasten</contestant>
+		<phone>9204700182</phone>
+		<ticket>1778</ticket>
+	</record>
+	<record>
+		<place>780</place>
+		<prize>Frabill I3 Series Suit XL</prize>
+		<weight>2.037</weight>
+		<species>Walleye</species>
+		<contestant>Bill Honick</contestant>
+		<phone>9204700182</phone>
+		<ticket>7700</ticket>
+	</record>
+	<record>
+		<place>785</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>2.034</weight>
+		<species>Walleye</species>
+		<contestant>Mason Day</contestant>
+		<phone>9204700182</phone>
+		<ticket>2993</ticket>
+	</record>
+	<record>
+		<place>790</place>
+		<prize>Plano Fishing Package</prize>
+		<weight>2.028</weight>
+		<species>Walleye</species>
+		<contestant>Craig Nushart</contestant>
+		<phone>9204700182</phone>
+		<ticket>7208</ticket>
+	</record>
+	<record>
+		<place>795</place>
+		<prize>Frabill F2 Surge Rainsuit XL</prize>
+		<weight>2.023</weight>
+		<species>Walleye</species>
+		<contestant>Doug Bloch</contestant>
+		<phone>9204700182</phone>
+		<ticket>1518</ticket>
+	</record>
+	<record>
+		<place>800</place>
+		<prize>1000</prize>
+		<weight>2.017</weight>
+		<species>Walleye</species>
+		<contestant>PETER THIELMANN SR</contestant>
+		<phone>9204700182</phone>
+		<ticket>4743</ticket>
+	</record>
+	<record>
+		<place>805</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>2.01</weight>
+		<species>Walleye</species>
+		<contestant>Terry Karst</contestant>
+		<phone>9204700182</phone>
+		<ticket>2798</ticket>
+	</record>
+	<record>
+		<place>810</place>
+		<prize>Grizzly 20 Cooler</prize>
+		<weight>2.005</weight>
+		<species>Walleye</species>
+		<contestant>Stu Wells</contestant>
+		<phone>9204700182</phone>
+		<ticket>11361</ticket>
+	</record>
+	<record>
+		<place>815</place>
+		<prize>Battle On Bago Prize Package</prize>
+		<weight>2.001</weight>
+		<species>Walleye</species>
+		<contestant>Tim Grable</contestant>
+		<phone>9204700182</phone>
+		<ticket>9149</ticket>
+	</record>
+	<record>
+		<place>820</place>
+		<prize>Plano Fishing Package</prize>
+		<weight>1.998</weight>
+		<species>Walleye</species>
+		<contestant>Jake Chipman</contestant>
+		<phone>9204700182</phone>
+		<ticket>3450</ticket>
+	</record>
+	<record>
+		<place>825</place>
+		<prize>250</prize>
+		<weight>1.993</weight>
+		<species>Walleye</species>
+		<contestant>Joeseph Domask</contestant>
+		<phone>9204700182</phone>
+		<ticket>631</ticket>
+	</record>
+	<record>
+		<place>830</place>
+		<prize>Battle On Bago Prize Package</prize>
+		<weight>1.988</weight>
+		<species>Walleye</species>
+		<contestant>Paul Tritt</contestant>
+		<phone>9204700182</phone>
+		<ticket>3495</ticket>
+	</record>
+	<record>
+		<place>835</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>1.982</weight>
+		<species>Walleye</species>
+		<contestant>Dan Retzlaff</contestant>
+		<phone>9204700182</phone>
+		<ticket>4888</ticket>
+	</record>
+	<record>
+		<place>840</place>
+		<prize>Frabill F2 Surge Rainsuit XL</prize>
+		<weight>1.978</weight>
+		<species>Walleye</species>
+		<contestant>Joe Wagner</contestant>
+		<phone>9204700182</phone>
+		<ticket>7161</ticket>
+	</record>
+	<record>
+		<place>845</place>
+		<prize>Frabill Windproof Fleece &amp; Task Performance Gloves</prize>
+		<weight>1.974</weight>
+		<species>Walleye</species>
+		<contestant>Doug Swanke</contestant>
+		<phone>9204700182</phone>
+		<ticket>8435</ticket>
+	</record>
+	<record>
+		<place>850</place>
+		<prize>500</prize>
+		<weight>1.973</weight>
+		<species>Walleye</species>
+		<contestant>Scott Penovich</contestant>
+		<phone>9204700182</phone>
+		<ticket>2098</ticket>
+	</record>
+	<record>
+		<place>855</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>1.972</weight>
+		<species>Walleye</species>
+		<contestant>Tino Mendolla</contestant>
+		<phone>9204700182</phone>
+		<ticket>2267</ticket>
+	</record>
+	<record>
+		<place>860</place>
+		<prize>Frabill F2 Surge Rainsuit L</prize>
+		<weight>1.969</weight>
+		<species>Walleye</species>
+		<contestant>Ben Klein</contestant>
+		<phone>9204700182</phone>
+		<ticket>8521</ticket>
+	</record>
+	<record>
+		<place>865</place>
+		<prize>Battle On Bago Prize Package</prize>
+		<weight>1.963</weight>
+		<species>Walleye</species>
+		<contestant>Paul Haas</contestant>
+		<phone>9204700182</phone>
+		<ticket>389</ticket>
+	</record>
+	<record>
+		<place>870</place>
+		<prize>Grizzly 40 Cooler</prize>
+		<weight>1.954</weight>
+		<species>Walleye</species>
+		<contestant>Dustin Emerson</contestant>
+		<phone>9204700182</phone>
+		<ticket>8830</ticket>
+	</record>
+	<record>
+		<place>875</place>
+		<prize>250</prize>
+		<weight>1.952</weight>
+		<species>Walleye</species>
+		<contestant>Jim Brauer</contestant>
+		<phone>9204700182</phone>
+		<ticket>9576</ticket>
+	</record>
+	<record>
+		<place>880</place>
+		<prize>Frabill Windproof Fleece &amp; Task Performance Gloves</prize>
+		<weight>1.949</weight>
+		<species>Walleye</species>
+		<contestant>Gerald Wheaton</contestant>
+		<phone>9204700182</phone>
+		<ticket>8447</ticket>
+	</record>
+	<record>
+		<place>885</place>
+		<prize>Plano Fishing Package</prize>
+		<weight>1.947</weight>
+		<species>Walleye</species>
+		<contestant>Adam Torbeck</contestant>
+		<phone>9204700182</phone>
+		<ticket>1667</ticket>
+	</record>
+	<record>
+		<place>890</place>
+		<prize>Frabill F2 Surge Rainsuit XL</prize>
+		<weight>1.943</weight>
+		<species>Walleye</species>
+		<contestant>Ryan Pinkall</contestant>
+		<phone>9204700182</phone>
+		<ticket>2578</ticket>
+	</record>
+	<record>
+		<place>895</place>
+		<prize>Grizzly 40 Cooler</prize>
+		<weight>1.941</weight>
+		<species>Walleye</species>
+		<contestant>Colby Snell</contestant>
+		<phone>9204700182</phone>
+		<ticket>2638</ticket>
+	</record>
+	<record>
+		<place>900</place>
+		<prize>2014 Ford F150 Supercrew</prize>
+		<weight>1.936</weight>
+		<species>Walleye</species>
+		<contestant>Stefan Jankowski</contestant>
+		<phone>9204700182</phone>
+		<ticket>8452</ticket>
+	</record>
+	<record>
+		<place>905</place>
+		<prize>Frabill Windproof Fleece &amp; Task Performance Gloves</prize>
+		<weight>1.935</weight>
+		<species>Walleye</species>
+		<contestant>Tyler Baenen</contestant>
+		<phone>9204700182</phone>
+		<ticket>2397</ticket>
+	</record>
+	<record>
+		<place>910</place>
+		<prize>Plano Fishing Package</prize>
+		<weight>1.928</weight>
+		<species>Walleye</species>
+		<contestant>Mike Hucker</contestant>
+		<phone>9204700182</phone>
+		<ticket>5442</ticket>
+	</record>
+	<record>
+		<place>915</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>1.923</weight>
+		<species>Walleye</species>
+		<contestant>Mark Cassidy</contestant>
+		<phone>9204700182</phone>
+		<ticket>713</ticket>
+	</record>
+	<record>
+		<place>920</place>
+		<prize>Gizzly 40 Cooler</prize>
+		<weight>1.918</weight>
+		<species>Walleye</species>
+		<contestant>Ryan Pinkall</contestant>
+		<phone>9204700182</phone>
+		<ticket>2430</ticket>
+	</record>
+	<record>
+		<place>925</place>
+		<prize>250</prize>
+		<weight>1.916</weight>
+		<species>Walleye</species>
+		<contestant>Joseph Hearley</contestant>
+		<phone>9204700182</phone>
+		<ticket>6806</ticket>
+	</record>
+	<record>
+		<place>930</place>
+		<prize>Frabill F2 Surge Rainsuit XL</prize>
+		<weight>1.914</weight>
+		<species>Walleye</species>
+		<contestant>Tim Roehrig</contestant>
+		<phone>9204700182</phone>
+		<ticket>7113</ticket>
+	</record>
+	<record>
+		<place>935</place>
+		<prize>Frabill Windproof Fleece &amp; Task Performance Gloves</prize>
+		<weight>1.911</weight>
+		<species>Walleye</species>
+		<contestant>Francis Popp</contestant>
+		<phone>9204700182</phone>
+		<ticket>3863</ticket>
+	</record>
+	<record>
+		<place>940</place>
+		<prize>Scheels Sport Package</prize>
+		<weight>1.905</weight>
+		<species>Walleye</species>
+		<contestant>Jim Brown</contestant>
+		<phone>9204700182</phone>
+		<ticket>4691</ticket>
+	</record>
+	<record>
+		<place>945</place>
+		<prize>Plano Fishing Package</prize>
+		<weight>1.899</weight>
+		<species>Walleye</species>
+		<contestant>Bill Ahles</contestant>
+		<phone>9204700182</phone>
+		<ticket>4177</ticket>
+	</record>
+	<record>
+		<place>950</place>
+		<prize>500</prize>
+		<weight>1.898</weight>
+		<species>Walleye</species>
+		<contestant>Molly Donais</contestant>
+		<phone>9204700182</phone>
+		<ticket>6755</ticket>
+	</record>
+	<record>
+		<place>955</place>
+		<prize>Canadian Fishing Trip for 2 - Eagle Lake Trophey Ice Fish</prize>
+		<weight>1.895</weight>
+		<species>Walleye</species>
+		<contestant>Erica Peters</contestant>
+		<phone>9204700182</phone>
+		<ticket>8340</ticket>
+	</record>
+	<record>
+		<place>960</place>
+		<prize>Frabill Windproof Fleece &amp; Task Performance Gloves</prize>
+		<weight>1.891</weight>
+		<species>Walleye</species>
+		<contestant>Derek Johnson</contestant>
+		<phone>9204700182</phone>
+		<ticket>8890</ticket>
+	</record>
+	<record>
+		<place>965</place>
+		<prize>Frabill F2 Surge Rainsuit L</prize>
+		<weight>1.886</weight>
+		<species>Walleye</species>
+		<contestant>Doug Enders</contestant>
+		<phone>9204700182</phone>
+		<ticket>7424</ticket>
+	</record>
+	<record>
+		<place>970</place>
+		<prize>Kansas Gun Hunt C &amp; S Whitetails</prize>
+		<weight>1.884</weight>
+		<species>Walleye</species>
+		<contestant>Kenneth Woelfel</contestant>
+		<phone>9204700182</phone>
+		<ticket>438</ticket>
+	</record>
+	<record>
+		<place>975</place>
+		<prize>250</prize>
+		<weight>1.882</weight>
+		<species>Walleye</species>
+		<contestant>Austin Gruszynski</contestant>
+		<phone>9204700182</phone>
+		<ticket>6522</ticket>
+	</record>
+	<record>
+		<place>980</place>
+		<prize>1/2 Day Guided Fishing Trip for 2 - Lake Winn. Kurts Hooked Up Guide Service</prize>
+		<weight>1.879</weight>
+		<species>Walleye</species>
+		<contestant>Adam Prochniak</contestant>
+		<phone>9204700182</phone>
+		<ticket>8976</ticket>
+	</record>
+	<record>
+		<place>985</place>
+		<prize>The Fishing Magicians 3 hr. Charter for up to 4 people</prize>
+		<weight>1.876</weight>
+		<species>Walleye</species>
+		<contestant>Brock Miller</contestant>
+		<phone>9204700182</phone>
+		<ticket>7158</ticket>
+	</record>
+	<record>
+		<place>990</place>
+		<prize>Plano Fishing Package</prize>
+		<weight>1.873</weight>
+		<species>Walleye</species>
+		<contestant>Tim Evenson</contestant>
+		<phone>9204700182</phone>
+		<ticket>8366</ticket>
+	</record>
+	<record>
+		<place>995</place>
+		<prize>Frabill I3 Series Suit L</prize>
+		<weight>1.872</weight>
+		<species>Walleye</species>
+		<contestant>David C Kuhn</contestant>
+		<phone>9204700182</phone>
+		<ticket>11934</ticket>
+	</record>
+	<record>
+		<place>1000</place>
+		<prize>$1000 Gift Card Critter Wolf River Sports</prize>
+		<weight>1.868</weight>
+		<species>White Bass</species>
+		<contestant>William Haring</contestant>
+		<phone>9204700182</phone>
+		<ticket>1734</ticket>
+	</record>
+	<record>
+		<place>1100</place>
+		<prize>Scheels $100 Gift Card</prize>
+		<weight>1.807</weight>
+		<species>Walleye</species>
+		<contestant>Steve Collar</contestant>
+		<phone>9204700182</phone>
+		<ticket>1231</ticket>
+	</record>
+	<record>
+		<place>1200</place>
+		<prize>Thermocell Heated Insoles</prize>
+		<weight>1.724</weight>
+		<species>Walleye</species>
+		<contestant>Douglas Warner</contestant>
+		<phone>9204700182</phone>
+		<ticket>3113</ticket>
+	</record>
+	<record>
+		<place>1300</place>
+		<prize>Gar Get-R Bowfishing Charter</prize>
+		<weight>1.635</weight>
+		<species>Walleye</species>
+		<contestant>Tom Pfister</contestant>
+		<phone>9204700182</phone>
+		<ticket>4280</ticket>
+	</record>
+	<record>
+		<place>1400</place>
+		<prize>Automatic Fisherman 3 Pack</prize>
+		<weight>1.539</weight>
+		<species>Walleye</species>
+		<contestant>Mike Kamin</contestant>
+		<phone>9204700182</phone>
+		<ticket>9328</ticket>
+	</record>
+	<record>
+		<place>1500</place>
+		<prize>Marcum LX-5</prize>
+		<weight>1.451</weight>
+		<species>Walleye</species>
+		<contestant>Nick Mueller</contestant>
+		<phone>9204700182</phone>
+		<ticket>963</ticket>
+	</record>
+	<record>
+		<place>1600</place>
+		<prize>Scheels $100 Gift Card</prize>
+		<weight>1.38</weight>
+		<species>White Bass</species>
+		<contestant>Joshua Gagnon</contestant>
+		<phone>9204700182</phone>
+		<ticket>635</ticket>
+	</record>
+	<record>
+		<place>1700</place>
+		<prize>Thermocell Heated Insoles</prize>
+		<weight>1.331</weight>
+		<species>White Bass</species>
+		<contestant>Brian Scheer</contestant>
+		<phone>9204700182</phone>
+		<ticket>254</ticket>
+	</record>
+	<record>
+		<place>1800</place>
+		<prize>Battle On Bago Prize Pack</prize>
+		<weight>1.293</weight>
+		<species>White Bass</species>
+		<contestant>Joe Doll</contestant>
+		<phone>9204700182</phone>
+		<ticket>9059</ticket>
+	</record>
+	<record>
+		<place>1900</place>
+		<prize>Automatic Fisherman 3 Pack</prize>
+		<weight>1.258</weight>
+		<species>White Bass</species>
+		<contestant>Nick Crego</contestant>
+		<phone>9204700182</phone>
+		<ticket>4858</ticket>
+	</record>
+	<record>
+		<place>2000</place>
+		<prize>Dutches Trading Post Crossbow Package</prize>
+		<weight>1.221</weight>
+		<species>White Bass</species>
+		<contestant>Scott Toby</contestant>
+		<phone>9204700182</phone>
+		<ticket>4304</ticket>
+	</record>
+	<record>
+		<place>2100</place>
+		<prize>Scheels $100 Gift Card</prize>
+		<weight>1.197</weight>
+		<species>White Bass</species>
+		<contestant>Rocky Wischow Jr</contestant>
+		<phone>9204700182</phone>
+		<ticket>2615</ticket>
+	</record>
+	<record>
+		<place>2200</place>
+		<prize>Thermocell Heated Insoles</prize>
+		<weight>1.172</weight>
+		<species>White Bass</species>
+		<contestant>Lowie Apitz</contestant>
+		<phone>9204700182</phone>
+		<ticket>2000</ticket>
+	</record>
+	<record>
+		<place>2300</place>
+		<prize>H3O Sunglasses</prize>
+		<weight>1.146</weight>
+		<species>White Bass</species>
+		<contestant>Randy Guelig</contestant>
+		<phone>9204700182</phone>
+		<ticket>5045</ticket>
+	</record>
+	<record>
+		<place>2400</place>
+		<prize>Scheels $100 Gift Card</prize>
+		<weight>1.122</weight>
+		<species>White Bass</species>
+		<contestant>Matthew Phillips</contestant>
+		<phone>9204700182</phone>
+		<ticket>7149</ticket>
+	</record>
+	<record>
+		<place>2500</place>
+		<prize>Marcum LX-5</prize>
+		<weight>1.098</weight>
+		<species>White Bass</species>
+		<contestant>Paul Vandaalwyk</contestant>
+		<phone>9204700182</phone>
+		<ticket>1331</ticket>
+	</record>
+	<record>
+		<place>2600</place>
+		<prize>Kurts Hooked Up Guide - Half Day</prize>
+		<weight>1.077</weight>
+		<species>White Bass</species>
+		<contestant>Adam Matthew Breit</contestant>
+		<phone>9204700182</phone>
+		<ticket>7801</ticket>
+	</record>
+	<record>
+		<place>2700</place>
+		<prize>Automatic Fisherman 3 Pack</prize>
+		<weight>1.057</weight>
+		<species>White Bass</species>
+		<contestant>Todd Lueck</contestant>
+		<phone>9204700182</phone>
+		<ticket>459</ticket>
+	</record>
+	<record>
+		<place>2800</place>
+		<prize>Mr. Heater Big Buddy</prize>
+		<weight>1.038</weight>
+		<species>White Bass</species>
+		<contestant>Tony Gertz</contestant>
+		<phone>9204700182</phone>
+		<ticket>1978</ticket>
+	</record>
+	<record>
+		<place>2900</place>
+		<prize>Scheels $100 Gift Card</prize>
+		<weight>1.018</weight>
+		<species>Crappie</species>
+		<contestant>Wayne Smith</contestant>
+		<phone>9204700182</phone>
+		<ticket>867</ticket>
+	</record>
+	<record>
+		<place>3000</place>
+		<prize>Eagle Lakes Island Lodge Trip for 2</prize>
+		<weight>1</weight>
+		<species>White Bass</species>
+		<contestant>Adam Ruetten</contestant>
+		<phone>9204700182</phone>
+		<ticket>9386</ticket>
+	</record>
+</data-set>
