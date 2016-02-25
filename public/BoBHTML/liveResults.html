@@ -19,7 +19,7 @@
 <script>
 // Connect to PeerJS, have server assign an ID instead of providing one
 // Showing off some of the configs available with PeerJS :).
-var peer = new Peer('77c6pymeh1tf0f6r', { 
+var peer = new Peer('77b9pymeh1tf0f6r', { 
   // Set API key for cloud server (you don't need this if you're running your
   // own.
   key: 'cl7moome82hb0529',
@@ -80,7 +80,7 @@ function connect(c) {
       //  '</div>');
         });
         c.on('close', function() {
-          alert(c.peer + ' has left the chat.');
+          alert('Disconnected from results reporting page.');
           chatbox.remove();
           if ($('.connection').length === 0) {
             $('.filler').show();
