@@ -18,7 +18,7 @@
 				var txtLastName = document.getElementById("txtLastName");
 				var txtEmail = document.getElementById("txtEmail");
 				var txtPhone = document.getElementById("txtPhone");
-				var phoneRegex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+				var phoneRegex = /^\(\d{3}\)\d{3}-\d{4}&/;
 				var txtAddress = document.getElementById("txtAddress");
 				var txtCity = document.getElementById("txtCity");
 				var lstState = document.getElementById("lstState");
@@ -90,9 +90,13 @@
 			}
 			
 		</script>
+
+
+
 </head>
 
 <body>
+
   <div id="wrap">
   	<div id="header">
   		<div id="logo">
@@ -107,11 +111,13 @@
       	
       	<div id="user_logIn">
      		<input type="button" class="button" name="btnLogin" id="btnLogin" value="Login"/>
+     		<br />
      		<input type="button" class="button" name="btnSignUp" id="btnSignUp" value="Sign Up" />
      	</div>
       	
       	<div id="password_signup">
       		<input type="text" class="textbox" id="txtUser" name="txtUser" placeholder="Email" />
+      		<br />
       		<input type="text" class="password" id="txtUserPass" name="txtUserPass" placeholder="Password" />
       	</div>
       
@@ -130,9 +136,10 @@
     </div>
    
     <div>
-      
+      <form name="PDS" id="PDS" action="http://battleonbago.azurewebsites.net/php/newConst.php" method="post">
      		 <fieldset>
 					<legend>Please Enter Your Infomation</legend>
+					<br />
 						<label for="txtFirstName">First Name:</label><input type="text" id="txtFirstName" name="txtFirstName" autofocus=""/>
 							<br />
 							<br />
@@ -211,7 +218,7 @@
 							<br />
 							<br />
 							
-					<input type="submit" value="Create Account" onclick="return Validate()"/>
+					<input type="submit" value="Create Account" onclick="return"/>
 						<br />
 						<br />
 					<input type="reset" value="Reset" onClick="window.location.reload()"/>
@@ -220,6 +227,7 @@
 				
 			<fieldset>
 					<legend>Create a Password</legend>
+					<br />
 					<label for="txtPassword">Password:</label>
 					<input type="password" id="txtPassword" name="txtPassword" />
 					<br />
@@ -246,5 +254,6 @@
 		<p>All content is for Educational Use Only</p>
     </footer>
   </div>
+</form>
 </body>
 </html>
