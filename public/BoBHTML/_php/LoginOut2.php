@@ -49,7 +49,9 @@ else
 $_SESSION["contId"] = $contId;
 $_SESSION["contEmail"] = $eMail;
 $_SESSION["contPass"] = $Password;
-echo "You are contestant ". $_SESSION["contId"], " ", $_SESSION["contEmail"], " ", $_SESSION["contPass"];
+#echo "You are contestant ". $_SESSION["contId"], " ", $_SESSION["contEmail"], " ", $_SESSION["contPass"];
+    setcookie('FirstName', $eMail, strtotime('+1 week'), "/");
+    header('Location: /index.php');
 }
 /*Free the statement and connection resources. */
 sqlsrv_free_stmt( $stmt3);
