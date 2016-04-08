@@ -1,5 +1,5 @@
 <?php
-//require_once('passwordverify.php');
+require_once('../_php/PasswordVerifySession.php');
 //require_once('GetNameCookie.php');
 ?>
 <html>
@@ -24,7 +24,7 @@
 		$username = 'bobadmin';
 		$password = 'Agilebob60515';
 		$db = new PDO($dsn,$username,$password);*/
-        
+        print ('<h1>Welcome, ' . $_COOKIE["FirstName"] . '</h1>');
 		$db = new PDO("sqlsrv:Server=agilebob.database.windows.net;Database=bob", "bobadmin", "Agilebob60515");
 		$SQL = $db->prepare('Select * from tblContestants');
 		$SQL->execute();

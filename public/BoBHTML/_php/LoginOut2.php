@@ -46,10 +46,10 @@ echo "You entered the wrong username or password";
 }
 else
 {
-$SESSION[0] = $contId;
-$SESSION[1] = $eMail;
-$SESSION[2] = $Password;
-echo "You are contestant ". $contId;
+$_SESSION["contId"] = $contId;
+$_SESSION["contEmail"] = $eMail;
+$_SESSION["contPass"] = $Password;
+echo "You are contestant ". $_SESSION["contId"], " ", $_SESSION["contEmail"], " ", $_SESSION["contPass"];
 }
 /*Free the statement and connection resources. */
 sqlsrv_free_stmt( $stmt3);
