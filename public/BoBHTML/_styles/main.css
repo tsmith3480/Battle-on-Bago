@@ -79,6 +79,17 @@ body
 	width: 80px;
 	color: white;
 	margin: 2px;
+	cursor: pointer;
+}
+
+.button:hover {
+	border-style: outset;
+	color: lightgray;
+}
+
+.button:active {
+	border-style: inset;
+	color: darkgray;
 }
 
 .textbox, .password
