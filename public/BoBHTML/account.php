@@ -13,6 +13,11 @@
 
   <title>My Account</title>
 <link href="_styles/main.css" type="text/css" rel="stylesheet" />
+	<script>
+		function confirm_action() {
+			return confirm("Are you sure you wish to delete your account?\nThis cannot be undone.\n\nClick OK to continue or Cancel to return.")
+		}
+	</script>
 </head>
 
 <body>
@@ -109,8 +114,12 @@
         				exit();
     				}
 				?>
-				<input type="button" name="btnEdit" id="btnEdit" value="Edit"/>
-				<input type="button" name="btnDelete" id="btnDelete" value="Delete Account"/>
+				<form action="./_php/editAccount.php" method="post">
+					<input type="submit" class="button" name="btnEdit" id="btnEdit" value="Edit"/>
+				</form>
+				<form action="./_php/deleteAccount.php" method="post">
+					<input type="submit" class="button" name="btnDelete" id="btnDelete" value="Delete Account" onclick="return confirm_action()"/>
+				</form>
 			</fieldset>
 
 			<form class="TicketRegistration">
