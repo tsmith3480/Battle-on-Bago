@@ -8,7 +8,7 @@
  */
 
 session_start();
-if (!isset($_SESSION["contId"])){
+if (!isset($_SESSION["contEmail"])){
     # Check for empty credentials
     switch (true) {
         case empty($_POST["txtEmail"]):
@@ -30,7 +30,7 @@ if (!isset($_SESSION["contId"])){
     }
 
     setcookie('FirstName', $FirstName, strtotime('+1 week'), "/");
-    $_SESSION["contId"] = $Email;
+    $_SESSION["contEmail"] = $Email;
 }
 
 # Return users password from the DB
@@ -44,7 +44,7 @@ function Password($contID, &$FirstName)
     try {
         $db = new PDO($dsn, $uname, $pwd, $options);
 
-        $SQL = $db->prepare("SELECT Password, fName FROM tblContestants WHERE Email = :contId");
+        $SQL = $db->prepare("SELECT Password, fName, contId FROM tblContestants WHERE Email = :contId");
         $SQL->bindValue(':contId', $contID);
 
         $SQL->execute();
@@ -55,6 +55,8 @@ function Password($contID, &$FirstName)
         } else {
             $Password = $Contestant['Password'];
             $FirstName = $Contestant['fName'];
+            $ContID = $Contestant['contId'];
+            $_SESSION["contId"] = $ContID;
         }
 
         $SQL->closeCursor();
@@ -87,7 +89,7 @@ function Password($contID, &$FirstName)
 					<div id="Logo">
 					</div><!-- End of Logo -->
 			
-					<div id="OrderForm">
+					<div id="LoginForm">
 						<div id="message">' . $msg . '</div>
 					
 						<form method="post" action="">

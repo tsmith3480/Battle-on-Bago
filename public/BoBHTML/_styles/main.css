@@ -170,3 +170,35 @@ footer
 	border-radius:12px;
 	z-index: 0;
 }
+
+.AccountDetails {
+	display: block;
+	float: left;
+	width: 300px;
+	clear: both;
+}
+
+.label {
+	display: block;
+	float: left;
+}
+
+.AccountDetails .label {
+	width: 80px;
+}
+
+.RegisteredTickets {
+	display: block;
+	float: left;
+	width: 300px;
+}
+
+.RegisteredTickets .label {
+	width: 50px;
+}
+
+.TicketRegistration {
+	display: block;
+	float: left;
+	width: 300px;
+}

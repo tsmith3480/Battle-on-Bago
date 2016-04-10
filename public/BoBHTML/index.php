@@ -28,7 +28,7 @@
         <?php
             if (isset($_COOKIE['FirstName'])) {
                 echo ('<h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>');
-                echo ('<h4>Not you? <a href="_php/Logout.php">Sign-out</a></h4>');
+                echo ('<h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>');
             } else {
                 echo ('
                     <div id="user_logIn">
@@ -48,8 +48,8 @@
     <div id="nav">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="account.html">My Account</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="account.php">My Account</a></li>
                 <li><a href="createaccount.html">Create Account</a></li>
                 <li><a href="prizes.html">Prizes</a></li>
                 <li><a href="http://itweb.fvtc.edu/120297214/XML/BOB/final.html">Results</a></li>
