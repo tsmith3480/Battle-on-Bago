@@ -108,28 +108,33 @@
     </div>
  
       <div id="sign-in">
-      	
-      	<div id="user_logIn">
-     		<input type="button" class="button" name="btnLogin" id="btnLogin" value="Login"/>
-     		<br />
-     		<input type="button" class="button" name="btnSignUp" id="btnSignUp" value="Sign Up" />
-     	</div>
-      	
-      	<div id="password_signup">
-      		<input type="text" class="textbox" id="txtUser" name="txtUser" placeholder="Email" />
-      		<br />
-      		<input type="text" class="password" id="txtUserPass" name="txtUserPass" placeholder="Password" />
-      	</div>
-      
+      	<?php
+            if (isset($_COOKIE['FirstName'])) {
+                echo ('<h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>');
+                echo ('<h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>');
+            } else {
+                echo ('
+                    <div id="user_logIn">
+                        <input type="submit" class="button" name="btnLogin" id="btnLogin" onclick="return" value="Login"/><br />
+                        <input type="button" class="button" name="btnSignUp" id="btnSignUp" value="Sign Up" />
+                    </div>
+
+                    <div id="password_signup">
+                        <input type="text" class="textbox" id="email" name="email" placeholder="email" /><br />
+                        <input type="password" class="password" id="password" name="password" placeholder="password" />
+                    </div>
+                ');
+            }
+        ?>
      </div><br />
      
     <div id="nav">
    	 <nav>
     		<ul>
      			 <li><a href="/">Home</a></li>
-     	 		<li><a href="account.html">My Account</a></li>
-     			 <li><a href="createaccount.html">Create Account</a></li>
-     			 <li><a href="prizes.html">Prizes</a></li>
+     	 		<li><a href="account.php">My Account</a></li>
+     			 <li><a href="createaccount.php">Create Account</a></li>
+     			 <li><a href="prizes.php">Prizes</a></li>
      			 <li><a href="http://itweb.fvtc.edu/120297214/XML/BOB/final.html">Results</a></li>
      		 </ul>
    	 </nav> 
