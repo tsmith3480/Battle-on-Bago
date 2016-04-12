@@ -17,14 +17,16 @@ require_once('_php/PasswordVerifySession.php');
 		function confirm_action() {
 			return confirm("Are you sure you wish to delete your account?\nThis cannot be undone.\n\nClick OK to continue or Cancel to return.")
 		}
+		
 		function editaccount(){
 			var x = document.getElementsByClassName("actinfo");
 			for (var i = 0; i < x.length; i++) {
-				x[i].removeAttribute('readonly');
+				x[i].readOnly = false;
 				//alert(x[i]);
-
 			}
-
+			document.getElementById("acctInfo").id = "editInfo";
+			document.getElementById("btnSave").style.display = "";
+			document.getElementById("btnEdit").style.display = "none";
 		}
 	</script>
 </head>
@@ -104,15 +106,17 @@ require_once('_php/PasswordVerifySession.php');
 				$Phone = $Contestant['Phone'];
 
 				echo ('
-							<p>	<span class="label">First Name: </span><input class="actinfo" type="text" readonly name="fname" value='."$fName".' ></p>
-							<p>	<span class="label">Last Name: </span><input class="actinfo" type="text" name="lName" value='."$lName".' readonly></p>
-							<p><span class="label">Address: </span><input class="actinfo" type="text" name="stAddress" value='."$Address".'readonly></p>
-							<p><span class="label" >City: </span><input class="actinfo" type="text" name="City" value='."$City".' readonly> </p>
-							<p><span class="label" >State: </span><input class="actinfo" type="text" name="State" value='."$State".' readonly> </p>
-							<p><span class="label" >Zip Code: </span><input class="actinfo" type="text" name="Zip" value='."$Zip".' readonly> </p>
-							<p><span class="label" >">Email Adress: </span><input class="actinfo" type="text" name="Email" value='."$Email".' readonly></p>
-							<p><span class="label" >Phone #: </span><input class="actinfo" type="text" name="Phone" value='."$Phone".' readonly></p>
-						');
+						<fieldset id="acctInfo">	
+							<p><span class="label">First Name: </span> <input class="actinfo" type="text" readonly name="fname" value='."$fName".'></p>
+							<p><span class="label">Last Name: </span> <input class="actinfo" type="text" readonly name="lName" value='."$lName".'></p>
+							<p><span class="label">Address: </span>	<input class="actinfo" type="text" readonly name="stAddress" value='."$Address".'></p>
+							<p><span class="label">City: </span> <input class="actinfo" type="text" readonly name="City" value='."$City".'></p>
+							<p><span class="label">State: </span> <input class="actinfo" type="text" readonly name="State" value='."$State".'></p>
+							<p><span class="label">Zip Code: </span> <input class="actinfo" type="text" readonly name="Zip" value='."$Zip".'></p>
+							<p><span class="label">Email Adress: </span> <input class="actinfo" type="text" readonly name="Email" value='."$Email".'></p>
+							<p><span class="label">Phone #: </span>	<input class="actinfo" type="text" readonly name="Phone" value='."$Phone".'></p>
+						</fieldset>
+					');
 
 				$SQL->closeCursor();
 				$db = null;
@@ -123,8 +127,9 @@ require_once('_php/PasswordVerifySession.php');
 				exit();
 			}
 			?>
-			<form>
-				<input type="submit" class="button" name="btnEdit" id="btnEdit" value="Edit" onclick="editaccount()"/>
+			<input type="submit" class="button" name="btnEdit" id="btnEdit" value="Edit" onclick="editaccount()"/>
+			<form action="./_php/editAccount.php" method="post">
+				<input type="submit" class="button" name="btnSave" id="btnSave" value="Save" style="display: none"/>
 			</form>
 			<form action="./_php/deleteAccount.php" method="post">
 				<input type="submit" class="button" name="btnDelete" id="btnDelete" value="Delete Account" onclick="return confirm_action()"/>
