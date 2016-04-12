@@ -26,7 +26,20 @@ require_once('_php/PasswordVerifySession.php');
 			}
 			document.getElementById("acctInfo").id = "editInfo";
 			document.getElementById("btnSave").style.display = "";
+			document.getElementById("btnCancel").style.display = "";
 			document.getElementById("btnEdit").style.display = "none";
+		}
+		
+		function canceledit () {
+			var x = document.getElementsByClassName("actinfo");
+			for (var i = 0; i < x.length; i++) {
+				x[i].readOnly = true;
+				//alert(x[i]);
+			}
+			document.getElementById("editInfo").id = "acctInfo";
+			document.getElementById("btnSave").style.display = "none";
+			document.getElementById("btnCancel").style.display = "none";
+			document.getElementById("btnEdit").style.display = "";
 		}
 	</script>
 </head>
@@ -106,7 +119,8 @@ require_once('_php/PasswordVerifySession.php');
 				$Phone = $Contestant['Phone'];
 
 				echo ('
-						<fieldset id="acctInfo">	
+						<fieldset  id="acctInfo">
+						<form action="./_php/editAccount.php" method="post">	
 							<p><span class="label">First Name: </span> <input class="actinfo" type="text" readonly name="fname" value='."$fName".'></p>
 							<p><span class="label">Last Name: </span> <input class="actinfo" type="text" readonly name="lName" value='."$lName".'></p>
 							<p><span class="label">Address: </span>	<input class="actinfo" type="text" readonly name="stAddress" value='."$Address".'></p>
@@ -115,6 +129,9 @@ require_once('_php/PasswordVerifySession.php');
 							<p><span class="label">Zip Code: </span> <input class="actinfo" type="text" readonly name="Zip" value='."$Zip".'></p>
 							<p><span class="label">Email Adress: </span> <input class="actinfo" type="text" readonly name="Email" value='."$Email".'></p>
 							<p><span class="label">Phone #: </span>	<input class="actinfo" type="text" readonly name="Phone" value='."$Phone".'></p>
+							<input type="submit" class="button" name="btnSave" id="btnSave" value="Save" style="display: none"/>
+							<input type="reset" class="button" name="btnCancel" id="btnCancel" value="Cancel" onclick="canceledit()" style="display: none"/>
+						</form>
 						</fieldset>
 					');
 
@@ -128,9 +145,6 @@ require_once('_php/PasswordVerifySession.php');
 			}
 			?>
 			<input type="submit" class="button" name="btnEdit" id="btnEdit" value="Edit" onclick="editaccount()"/>
-			<form action="./_php/editAccount.php" method="post">
-				<input type="submit" class="button" name="btnSave" id="btnSave" value="Save" style="display: none"/>
-			</form>
 			<form action="./_php/deleteAccount.php" method="post">
 				<input type="submit" class="button" name="btnDelete" id="btnDelete" value="Delete Account" onclick="return confirm_action()"/>
 			</form>
