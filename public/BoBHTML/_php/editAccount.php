@@ -55,6 +55,6 @@ if ($Email != $_SESSION["contEmail"]) {
 	header('Location: /_php/Logout.php');
 } else {
 	// Refreshes account page to show new account information
-	header('Location: /accounttest.php');
+	header('Location: /account.php');
 }
 ?>
