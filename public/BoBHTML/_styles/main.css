@@ -202,3 +202,14 @@ footer
 	float: left;
 	width: 300px;
 }
+
+fieldset#acctInfo .actinfo {
+	background: transparent;
+	border: none;
+	color: white;
+}
+
+fieldset#editInfo .actinfo:hover {
+	background: grey;
+	font-weight: bolder;
+}
