@@ -109,26 +109,26 @@ require_once('_php/PasswordVerifySession.php');
 				$SQL->execute();
 				$Contestant = $SQL->fetch();
 
-				$fName = $Contestant['fName'];
-				$lName = $Contestant['lName'];
-				$Address = $Contestant['stAddress'];
-				$City = $Contestant['City'];
-				$State = $Contestant['State'];
-				$Zip = $Contestant['Zip'];
-				$Email = $Contestant['Email'];
-				$Phone = $Contestant['Phone'];
+				$fName = '"'.$Contestant['fName'].'"';
+				$lName = '"'.$Contestant['lName'].'"';
+				$Address = '"'.$Contestant['stAddress'].'"';
+				$City = '"'.$Contestant['City'].'"';
+				$State = '"'.$Contestant['State'].'"';
+				$Zip = '"'.$Contestant['Zip'].'"';
+				$Email = '"'.$Contestant['Email'].'"';
+				$Phone = '"'.$Contestant['Phone'].'"';
 
 				echo ('
 						<fieldset  id="acctInfo">
 						<form action="./_php/editAccount.php" method="post">	
-							<p><span class="label">First Name: </span> <input class="actinfo" type="text" readonly name="fname" value='."$fName".'></p>
-							<p><span class="label">Last Name: </span> <input class="actinfo" type="text" readonly name="lName" value='."$lName".'></p>
-							<p><span class="label">Address: </span>	<input class="actinfo" type="text" readonly name="stAddress" value='."$Address".'></p>
-							<p><span class="label">City: </span> <input class="actinfo" type="text" readonly name="City" value='."$City".'></p>
-							<p><span class="label">State: </span> <input class="actinfo" type="text" readonly name="State" value='."$State".'></p>
-							<p><span class="label">Zip Code: </span> <input class="actinfo" type="text" readonly name="Zip" value='."$Zip".'></p>
-							<p><span class="label">Email Adress: </span> <input class="actinfo" type="text" readonly name="Email" value='."$Email".'></p>
-							<p><span class="label">Phone #: </span>	<input class="actinfo" type="text" readonly name="Phone" value='."$Phone".'></p>
+							<p><span class="label">First Name: </span> <input class="actinfo" type="text" readonly name="fname" value='.$fName.'></p>
+							<p><span class="label">Last Name: </span> <input class="actinfo" type="text" readonly name="lName" value='.$lName.'></p>
+							<p><span class="label">Address: </span>	<input class="actinfo" type="text" readonly name="stAddress" value='.$Address.'></p>
+							<p><span class="label">City: </span> <input class="actinfo" type="text" readonly name="City" value='.$City.'></p>
+							<p><span class="label">State: </span> <input class="actinfo" type="text" readonly name="State" value='.$State.'></p>
+							<p><span class="label">Zip Code: </span> <input class="actinfo" type="text" readonly name="Zip" value='.$Zip.'></p>
+							<p><span class="label">Email Adress: </span> <input class="actinfo" type="text" readonly name="Email" value='.$Email.'></p>
+							<p><span class="label">Phone #: </span>	<input class="actinfo" type="text" readonly name="Phone" value='.$Phone.'></p>
 							<input type="submit" class="button" name="btnSave" id="btnSave" value="Save" style="display: none"/>
 							<input type="reset" class="button" name="btnCancel" id="btnCancel" value="Cancel" onclick="canceledit()" style="display: none"/>
 						</form>
