@@ -88,9 +88,13 @@ require_once('_php/PasswordVerifySession.php');
 		</nav>
 	</div>
 
-	<div>
-		<fieldset class="AccountDetails">
+	<div id="accountdetails">
+		
+		<fieldset class="AccountDetails" name="AccountDets">
 			<legend>Account Details</legend>
+			<hr />
+			<br />
+			
 			<?php
 			$dsn = 'sqlsrv:Server=agilebob.database.windows.net;Database=bob';
 			$uname = 'bobadmin';
@@ -122,15 +126,25 @@ require_once('_php/PasswordVerifySession.php');
 						<fieldset  id="acctInfo">
 						<form action="./_php/editAccount.php" method="post">	
 							<p><span class="label">First Name: </span> <input class="actinfo" type="text" readonly name="fName" value='.$fName.'></p>
+							<br />
 							<p><span class="label">Last Name: </span> <input class="actinfo" type="text" readonly name="lName" value='.$lName.'></p>
+							<br />
 							<p><span class="label">Address: </span>	<input class="actinfo" type="text" readonly name="stAddress" value='.$Address.'></p>
+							<br />
 							<p><span class="label">City: </span> <input class="actinfo" type="text" readonly name="City" value='.$City.'></p>
+							<br />
 							<p><span class="label">State: </span> <input class="actinfo" type="text" readonly name="State" value='.$State.'></p>
+							<br />
 							<p><span class="label">Zip Code: </span> <input class="actinfo" type="text" readonly name="Zip" value='.$Zip.'></p>
+							<br />
 							<p><span class="label">Email Adress: </span> <input class="actinfo" type="text" readonly name="Email" value='.$Email.'></p>
+							<br />
 							<p><span class="label">Phone #: </span>	<input class="actinfo" type="text" readonly name="Phone" value='.$Phone.'></p>
+							<br />
 							<input type="submit" class="button" name="btnSave" id="btnSave" value="Save" style="display: none"/>
+							<br />
 							<input type="reset" class="button" name="btnCancel" id="btnCancel" value="Cancel" onclick="canceledit()" style="display: none"/>
+							<br />
 						</form>
 						</fieldset>
 					');
@@ -150,13 +164,13 @@ require_once('_php/PasswordVerifySession.php');
 			</form>
 		</fieldset>
 
-		<form class="TicketRegistration">
+		<form class="TicketRegistration" name="TicketReg">
 			<h2>Ticket Registration</h2><br />
 			<label for="txtTicket">Ticket #:</label><input type="text" id="txtTicket" name="txtTicket" /><br /><br />
 			<input type="submit" value="Register Ticket" />
 		</form>
 
-		<fieldset class="RegisteredTickets">
+		<fieldset class="RegisteredTickets" name="RegTick">
 			<legend>Registered Tickets</legend>
 			<?php
 			$dsn = 'sqlsrv:Server=agilebob.database.windows.net;Database=bob';
