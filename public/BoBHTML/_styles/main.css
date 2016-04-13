@@ -9,11 +9,82 @@
 body
 {
 	max-width: 1600px;
-	background-image: url(../_images/ice.jpg);
+	background-image: url(../_images/ice2.jpg);
 	background-repeat: repeat;
 	background-size: 1600px, 800px, cover;	
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
+/*This is just the stuff I messed with on 4/12 (Ian)*/
+
+#TextAndVideo
+{
+	float: left;
+	width: 38%;
+	height: auto;
+	padding-top: 60px;
+	font-size: 1.9em;
+}
+
+#formentry
+{
+	
+	font-size: 1.7em;
+	padding-top: 70px;
+	width: 300px;
+	text-align: left;
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+
+input
+{
+	display: inline-block;
+	float: right;
+}
+
+#lstState
+{
+	display: inline-block;
+	float: right;
+}
+
+legend
+{
+	font-size: 1.3em;
+}
+
+#accountdetails
+{
+	font-size: 1.2em;
+	padding-top: 70px;
+}
+
+#AccountDets
+{
+	text-align: left;
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+
+#TicketReg
+{
+	text-align: left;
+	display: inline-block;
+	float: left;
+	clear: left;
+}
+
+#RegTick
+{
+	text-align: right;
+	display: inline-block;
+	float: both;
+	clear: both;
+}
+/*--------------------------*/
 #wrap	
 {
 	color: white;
@@ -25,7 +96,12 @@ body
 	height:1000px;
 	margin: 0 auto -200px;
 	padding: 2%;
-	background-color: rgba(31,54,96,0.90);
+	/*background-color: rgba(31,54,96,0.90);*/
+	background: -moz-linear-gradient(top, #193443 0%, #3f545f 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top, #193443 0%,#3f545f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #193443 0%,#3f545f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #193443 0%,#3f545f 100%); /* IE10+ */
+	background: linear-gradient(bottom, #193443 0%,#3f545f 100%); /* W3C */
 	border-radius:15px;
 	border:2px solid;
 	box-shadow: 5px 5px 15px #002448;
@@ -104,6 +180,7 @@ body
 	margin-left: 100px;
 	display:block;
 	clear:both;
+	padding-top:30px;
 }
 
 #nav ul li 
@@ -147,7 +224,9 @@ body
 {
 	float: right;
 	width: 38%;
-	height: auto;;
+	height: auto;
+	padding-top: 30px;
+	font-size: 1.9em;
 }
 
 #sponsors img{
@@ -156,11 +235,10 @@ body
 
 footer
 {
-	position: absolute;
-	bottom: 0;
-	/*padding-top: 10px;*/
+	position: relative;
+	padding-top: 10px;
 	display: block;
-	font-size: 0.8em;
+	font-size: 1.6em;
 	text-align: center;
 	margin:5px;
 	padding: 10px;
@@ -168,7 +246,9 @@ footer
 	clear: both;
 	border:2px solid;
 	border-radius:12px;
+	bottom:0px;
 	z-index: 0;
+	margin-top: 600px;
 }
 
 .AccountDetails {
