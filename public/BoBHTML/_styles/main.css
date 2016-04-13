@@ -181,6 +181,7 @@ footer
 .label {
 	display: block;
 	float: left;
+    font-size:small;
 }
 
 .AccountDetails .label {
