@@ -128,6 +128,45 @@ legend
 	height: 70px;
 }
 
+#sign-in h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#sign-in h4 {
+	font-size: 14px;
+	text-align:center;
+	background-image: linear-gradient(#035, #999 40%, #027 55%, #035);
+	padding: 3px;
+	margin: 2px;
+	border: solid 1px;
+	border-radius: 7px;
+	border-color: white;
+}
+
+#sign-in h4:hover {
+	border: outset 1px;
+	color: lightgrey;
+}
+
+#sign-in h4:active {
+	border: inset 1px;
+	color: darkgrey;
+}
+
+#sign-in a {
+	color: white;
+	text-decoration: none;
+}
+
+#sign-in a:hover {
+	color: lightgrey;
+}
+
+#sign-in a:active {
+	color: darkgrey;
+}
+
 #user_logIn
 {
 	float:right;
@@ -255,6 +294,20 @@ footer
 	float: left;
 	width: 300px;
 	clear: both;
+}
+
+.AccountDetails .button {
+	display: inline-block;
+	float:none;
+	width: auto;
+	height: 25px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.AccountDetails p {
+	display: block;
+	height: 12px;
 }
 
 .label {
