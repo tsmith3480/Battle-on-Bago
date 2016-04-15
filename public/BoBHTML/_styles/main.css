@@ -274,9 +274,8 @@ legend
 
 footer
 {
-	position: absolute;
-	bottom: 0;
-	/*padding-top: 10px;*/
+	position: relative;
+ 	padding-top: 10px;
 	display: block;
 	font-size: 0.8em;
 	text-align: center;
@@ -286,7 +285,9 @@ footer
 	clear: both;
 	border:2px solid;
 	border-radius:12px;
+	bottom: 0px;
 	z-index: 0;
+	margin-top: 600px;
 }
 
 .AccountDetails {
