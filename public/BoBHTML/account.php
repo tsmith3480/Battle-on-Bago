@@ -224,12 +224,14 @@ require_once('_php/PasswordVerifySession.php');
 			</form>
 		</fieldset>
 
-		<form class="TicketRegistration" name="TicketReg">
+		<form class="TicketRegistration" name="TicketReg" action="http://battleonbago.azurewebsites.net/_php/addTicket.php"  method="post">
+
 			<h2>Ticket Registration</h2><br />
-			<label for="txtTicket">Ticket #:</label><input type="text" id="txtTicket" name="txtTicket" /><br /><br />
+			<label for="txtTicket">Ticket #:</label><input type="text" id="txtTicket" name="txtTicket" />
+            <br /><br />
 			<input type="submit" value="Register Ticket" />
 		</form>
-
+        </form>
 		<fieldset class="RegisteredTickets" name="RegTick">
 			<legend>Registered Tickets</legend>
 			<?php
