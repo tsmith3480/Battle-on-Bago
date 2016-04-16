@@ -28,6 +28,8 @@ require_once('_php/PasswordVerifySession.php');
 			document.getElementById("btnSave").style.display = "";
 			document.getElementById("btnCancel").style.display = "";
 			document.getElementById("btnEdit").style.display = "none";
+			document.getElementById("txtState").style.display = "none"
+			document.getElementById("lstState").style.display = "";
 		}
 		
 		function canceledit () {
@@ -40,6 +42,8 @@ require_once('_php/PasswordVerifySession.php');
 			document.getElementById("btnSave").style.display = "none";
 			document.getElementById("btnCancel").style.display = "none";
 			document.getElementById("btnEdit").style.display = "";
+			document.getElementById("txtState").style.display = ""
+			document.getElementById("lstState").style.display = "none";
 		}
 	</script>
 </head>
@@ -118,6 +122,7 @@ require_once('_php/PasswordVerifySession.php');
 				$Address = '"'.$Contestant['stAddress'].'"';
 				$City = '"'.$Contestant['City'].'"';
 				$State = '"'.$Contestant['State'].'"';
+				$lstState = $Contestant['State'];
 				$Zip = '"'.$Contestant['Zip'].'"';
 				$Email = '"'.$Contestant['Email'].'"';
 				$Phone = '"'.$Contestant['Phone'].'"';
@@ -133,11 +138,66 @@ require_once('_php/PasswordVerifySession.php');
 							<br />
 							<p><span class="label">City: </span> <input class="actinfo" type="text" readonly name="City" value='.$City.'></p>
 							<br />
-							<p><span class="label">State: </span> <input class="actinfo" type="text" readonly name="State" value='.$State.'></p>
+							<p><span class="label">State: </span> <input class="actinfo" id="txtState" type="text" readonly name="State" value='.$State.'>
+								<select class="actinfo" id="lstState" name="State" style="display:none;width:154px;">
+									<option value='.$State.' selected>'.$lstState.'</option>
+							   		<option value="AK">AK</option>
+     								<option value="AL">AL</option>
+    								<option value="AR">AR</option>
+    			 					<option value="AZ">AZ</option>
+     								<option value="CA">CA</option>
+     								<option value="CO">CO</option>
+     								<option value="CT">CT</option>
+     								<option value="DC">DC</option>
+     								<option value="DE">DE</option>
+     								<option value="FL">FL</option>
+     								<option value="GA">GA</option>
+     								<option value="HI">HI</option>
+     								<option value="IA">IA</option>
+     								<option value="ID">ID</option>
+     								<option value="IL">IL</option>
+     								<option value="IN">IN</option>
+     								<option value="KS">KS</option>
+     								<option value="KY">KY</option>
+     								<option value="LA">LA</option>
+     								<option value="MA">MA</option>
+     								<option value="MD">MD</option>
+     								<option value="ME">ME</option>
+     								<option value="MI">MI</option>
+     								<option value="MN">MN</option>
+     								<option value="MO">MO</option>
+     								<option value="MS">MS</option>
+     								<option value="MT">MT</option>
+     								<option value="NC">NC</option>
+     								<option value="ND">ND</option>
+     								<option value="NE">NE</option>
+     								<option value="NH">NH</option>
+     								<option value="NJ">NJ</option>
+     								<option value="NM">NM</option>
+     								<option value="NV">NV</option>
+     								<option value="NY">NY</option>          
+     								<option value="OH">OH</option>
+     								<option value="OK">OK</option>
+     								<option value="OR">OR</option>
+     								<option value="PA">PA</option>
+     								<option value="RI">RI</option>
+     								<option value="SC">SC</option>
+     								<option value="SD">SD</option>
+     								<option value="TN">TN</option>
+     								<option value="TX">TX</option>
+     								<option value="UT">UT</option>
+     								<option value="VT">VT</option>
+     								<option value="VA">VA</option>
+     								<option value="WA">WA</option>
+     								<option value="WV">WV</option>
+     								<option value="WI">WI</option>
+     								<option value="WY">WY</option>
+								</select>
+							</p>
 							<br />
 							<p><span class="label">Zip Code: </span> <input class="actinfo" type="text" readonly name="Zip" value='.$Zip.'></p>
 							<br />
-							<p><span class="label">Email Adress: </span> <input class="actinfo" type="text" readonly name="Email" value='.$Email.'></p>
+							<p><span class="label">Email: </span> <input class="actinfo" type="text" readonly name="Email" value='.$Email.'></p>
 							<br />
 							<p><span class="label">Phone #: </span>	<input class="actinfo" type="text" readonly name="Phone" value='.$Phone.'></p>
 							<br />
