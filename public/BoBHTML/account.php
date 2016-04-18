@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 // Force valid login if one does not exist
-require_once('_php/PasswordVerifySession.php');
+require_once('_php/PasswordVerifySessionModal.php');
 ?>
 <html lang="en">
 <head>
