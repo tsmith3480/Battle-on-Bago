@@ -275,9 +275,9 @@ legend
 footer
 {
 	position: relative;
- 	padding-top: 10px;
+	padding-top: 10px;
 	display: block;
-	font-size: 0.8em;
+	font-size: 1.6em;
 	text-align: center;
 	margin:5px;
 	padding: 10px;
@@ -285,7 +285,7 @@ footer
 	clear: both;
 	border:2px solid;
 	border-radius:12px;
-	bottom: 0px;
+	bottom:0px;
 	z-index: 0;
 	margin-top: 600px;
 }
