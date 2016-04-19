@@ -16,7 +16,7 @@ if (!isset($_SESSION["contEmail"])){
             showForm();
             exit();
         case empty($_POST["txtPassword"])   :
-            showForm();
+            showForm('You must enter a password');
             exit();
         default:
             $Email = $_POST["txtEmail"];
@@ -94,7 +94,7 @@ function Password($contID, &$FirstName)
     				});
 					
 					$(function(){
-    					$("#myModal").on("hidden.bs.modal", function (e) {
+    					$("#myModal").on("hide.bs.modal", function (e) {
         					window.location.href = ' . $home . ';
     					});
 					});
@@ -168,8 +168,8 @@ function Password($contID, &$FirstName)
 									</div><!-- End of FormFields -->									
         						</div>  <!-- End Modal Body -->
         						<div class="modal-footer">  <!-- Begin Modal Footer -->
-          							 &nbsp;<input type="submit" value="Log In" />
-          							<input type="button" onClick="location.href=' . $home . '" value="Cancel"/> &nbsp; <br /><br />
+          							<input type="button" onClick="location.href=' . $home . '" value="Cancel"/>
+          							<input type="submit" value="Log In" /><br /><br />
           							<a href="../createaccount.php">Create Account</a>
         						</div> <!-- End Modal Footer -->
         						</form>
