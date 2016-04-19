@@ -8,6 +8,7 @@
  */
 
 session_start();
+
 if (!isset($_SESSION["contEmail"])){
     # Check for empty credentials
     switch (true) {
@@ -75,6 +76,8 @@ function Password($contID, &$FirstName)
     #Shows HTML login form
     function showForm($msg = "Please Log In")
     {
+        $home = "'../'";	
+		
         print ('
 			<html>
 			<head>
@@ -88,11 +91,14 @@ function Password($contID, &$FirstName)
   				<script type="text/javascript">
     				$(window).load(function(){
         				$("#myModal").modal("show");
-						$("#myModal").on("hide.bs.modal", function (e){
-							header("Location /")
-						});
     				});
-			</script>
+					
+					$(function(){
+    					$("#myModal").on("hidden.bs.modal", function (e) {
+        					window.location.href = ' . $home . ';
+    					});
+					});
+				</script>
 			</head>
 	
 			<body>
@@ -162,7 +168,9 @@ function Password($contID, &$FirstName)
 									</div><!-- End of FormFields -->									
         						</div>  <!-- End Modal Body -->
         						<div class="modal-footer">  <!-- Begin Modal Footer -->
-          							<input type="submit" value="Log in" />
+          							 &nbsp;<input type="submit" value="Log In" />
+          							<input type="button" onClick="location.href=' . $home . '" value="Cancel"/> &nbsp; <br /><br />
+          							<a href="../createaccount.php">Create Account</a>
         						</div> <!-- End Modal Footer -->
         						</form>
       						</div>  <!-- End Modal Content -->
