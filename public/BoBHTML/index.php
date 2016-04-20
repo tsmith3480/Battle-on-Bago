@@ -37,7 +37,7 @@
                     </div>
 
                     <div id="password_signup">
-                        <input type="text" class="textbox" id="email" name="email" placeholder="email" /><br />
+                        <input type="email" class="textbox" id="email" name="email" placeholder="email" /><br />
                         <input type="password" class="password" id="password" name="password" placeholder="password" />
                     </div> 
                 ');
@@ -48,7 +48,7 @@
     <div id="nav">
         <nav>
             <ul>
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="account.php">My Account</a></li>
                 <li><a href="createaccount.php">Create Account</a></li>
                 <li><a href="prizes.php">Prizes</a></li>

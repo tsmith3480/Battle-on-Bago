@@ -120,7 +120,7 @@
                     </div>
 
                     <div id="password_signup">
-                        <input type="text" class="textbox" id="email" name="email" placeholder="email" /><br />
+                        <input type="email" class="textbox" id="email" name="email" placeholder="email" /><br />
                         <input type="password" class="password" id="password" name="password" placeholder="password" />
                     </div>
                 ');

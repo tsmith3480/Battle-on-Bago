@@ -2,13 +2,13 @@
 session_start();
 if(empty($_POST['email']))
 {
-	header('Location:http://battleonbago.azurewebsites.net/home2.html');//put the path to the posting page here
+	header('Location:http://battleonbago.azurewebsites.net/');//put the path to the posting page here
 	 exit();
 }
 
 if(empty($_POST['password']))
 {
-	header('Location:http://battleonbago.azurewebsites.net/home2.html');//put the path to the posting page here
+	header('Location:http://battleonbago.azurewebsites.net/');//put the path to the posting page here
 	 exit();
 }
 
@@ -51,7 +51,7 @@ $_SESSION["contEmail"] = $eMail;
 $_SESSION["contPass"] = $Password;
 #echo "You are contestant ". $_SESSION["contId"], " ", $_SESSION["contEmail"], " ", $_SESSION["contPass"];
     setcookie('FirstName', $eMail, strtotime('+1 week'), "/");
-    header('Location: /index.php');
+    header('Location: /');
 }
 /*Free the statement and connection resources. */
 sqlsrv_free_stmt( $stmt3);
