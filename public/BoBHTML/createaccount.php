@@ -106,7 +106,7 @@
     		</header>
     	</div>
     </div>
- 
+ 	<form action="http://battleonbago.azurewebsites.net/_php/LoginOut2.php" method="post">
       <div id="sign-in">
       	<?php
             if (isset($_COOKIE['FirstName'])) {
@@ -127,7 +127,7 @@
             }
         ?>
      </div><br />
-     
+    </form> 
     <div id="nav">
    	 <nav>
     		<ul>
