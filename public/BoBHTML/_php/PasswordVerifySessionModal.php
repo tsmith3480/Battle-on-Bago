@@ -123,10 +123,10 @@ function Password($contID, &$FirstName)
         						<div class="modal-body">  <!-- Begin Modal Body -->
           							<div id="FormFields">
 										<label for="txtEmail">Email Address</label>
-										<input type="email" name="txtEmail" id="txtEmail" autofocus/><br />
+										<input type="email" name="txtEmail" id="txtEmail" autofocus required/><br />
 						
 										<label for="txtPassword">Password</label>
-										<input type="password" name="txtPassword" id="txtPassword" />
+										<input type="password" name="txtPassword" id="txtPassword" required/>
 									</div><!-- End of FormFields -->									
         						</div>  <!-- End Modal Body -->
         						<div class="modal-footer">  <!-- Begin Modal Footer -->
