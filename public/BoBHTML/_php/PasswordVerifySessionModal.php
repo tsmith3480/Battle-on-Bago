@@ -16,7 +16,7 @@ if (!isset($_SESSION["contEmail"])){
             showForm();
             exit();
         case empty($_POST["txtPassword"])   :
-            showForm('You must enter a password');
+            showForm();
             exit();
         default:
             $Email = $_POST["txtEmail"];
@@ -96,7 +96,11 @@ function Password($contID, &$FirstName)
 					
 					$(function(){
     					$("#myModal").on("hide.bs.modal", function (e) {
-        					window.location.href = ' . $referer . ';
+    						if (' . $referer . ' == "http://battleonbago.azurewebsites.net/account.php") {
+        						window.location.href = ' . $home . ';
+        					} else {
+        						window.location.href = ' . $referer . ';
+        					}
     					});
 					});
 					
