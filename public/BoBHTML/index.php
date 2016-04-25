@@ -9,7 +9,7 @@
          Remove this if you use the .htaccess -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Battle on Bago Home</title>
+    <title>Battle on Bago Home Page</title>
     <link href="_styles/main.css" type="text/css" rel="stylesheet" />
 </head>
 
@@ -31,15 +31,14 @@
                 echo ('<h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>');
             } else {
                 echo ('
-                    <div id="user_logIn">
-                        <input type="submit" class="button" name="btnLogin" id="btnLogin" onclick="return" value="Login"/><br />
-                        <input type="button" class="button" name="btnSignUp" id="btnSignUp" value="Sign Up" />
-                    </div>
+                    
+                 <div id="sign-in">
 
-                    <div id="password_signup">
-                        <input type="email" class="textbox" id="email" name="email" placeholder="email" /><br />
-                        <input type="password" class="password" id="password" name="password" placeholder="password" />
-                    </div> 
+                  <div style="font-size: 1.5em; font-weight: bold; margin: 20px; border:thin solid white; padding: .3em;border-radius: 8px;width:4em; background-color:#1F3660; text-align: center;">
+                  <a href="account.php">Sign In</a>
+                  </div>
+
+                </div><br />
                 ');
             }
         ?>
