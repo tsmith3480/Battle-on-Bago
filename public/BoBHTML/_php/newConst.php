@@ -118,63 +118,6 @@ sqlsrv_next_result($stmt3);
 /*Free the statement and connection resources. */
 sqlsrv_free_stmt( $stmt3);
 sqlsrv_close( $conn);
+
+header('Location: /account.php');
 ?>
-
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-
-</head>
-
-<body>
-<center><h1>Battle on Bago</h1></center>
-<center><h1>Thanks for signing up!</h1></center>
-
-
-<center><h3>You are Contestant:<?=$contId?> </h3></center>
-<center><table>
-<tr>
-<td>First Name:</td>
-<td><?=$fName?></td>
-</tr>
-<tr>
-<td>Last Name:</td>
-<td><?=$lName?></td>
-</tr>
-<tr>
-<td>Address:</td>
-<td><?=$Address?></td>
-</tr>
-<tr>
-<td>City:</td>
-<td><?=$City?></td>
-</tr>
-
-<tr>
-<td>State:</td>
-<td><?=$State?></td>
-</tr>
-<tr>
-<td>Zip:</td>
-<td><?=$Zip?></td>
-</tr>
-<tr>
-<td>Phone:</td>
-<td><?=$Phone?></td>
-</tr>
-<tr>
-<td>Email:</td>
-<td><?=$eMail?></td>
-</tr>
-</table></center>
-
-
-
-
-</body>
-
-</html>
