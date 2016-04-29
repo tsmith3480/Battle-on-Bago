@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <?php
 // Force valid login if one does not exist
@@ -12,6 +13,9 @@ require_once('_php/PasswordVerifySessionModal.php');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<title>My Account</title>
+	
+	<meta name="viewport" content="width=device-width">
+	<link href="_styles/maxwidth767.css" rel="stylesheet" media="only screen and (max-width : 767px)">
 	<link href="_styles/main.css" type="text/css" rel="stylesheet" />
 	<script>
 		function confirm_action() {
@@ -53,8 +57,8 @@ require_once('_php/PasswordVerifySessionModal.php');
 	<div id="header">
 		<div id="logo">
 			<header>
-				<img src="_images/BobLogo.png" alt="BoB Logo" />
-				<h1>Welcome to Battle on Bago</h1>
+				<img src="_images/Bob-Logo-Header.png" alt="BoB Logo" />
+				<!--<h1>Welcome to Battle on Bago</h1>-->
 			</header>
 		</div>
 	</div>
@@ -70,7 +74,6 @@ require_once('_php/PasswordVerifySessionModal.php');
                         <input type="submit" class="button" name="btnLogin" id="btnLogin" onclick="return" value="Login"/><br />
                         <input type="button" class="button" name="btnSignUp" id="btnSignUp" value="Sign Up" />
                     </div>
-
                     <div id="password_signup">
                         <input type="email" class="textbox" id="email" name="email" placeholder="email" /><br />
                         <input type="password" class="password" id="password" name="password" placeholder="password" />
@@ -105,18 +108,14 @@ require_once('_php/PasswordVerifySessionModal.php');
 			$pwd = 'Agilebob60515';
 			$options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
 			$contestant = $_SESSION["contEmail"];
-
 			try {
 				$db = new PDO($dsn, $uname, $pwd, $options);
-
 				$SQL = $db->prepare("SELECT fName, lName, stAddress, City, State, Zip, Email, Phone
 											FROM tblContestants
 											WHERE Email = :contestant");
 				$SQL->bindValue(':contestant', $contestant);
-
 				$SQL->execute();
 				$Contestant = $SQL->fetch();
-
 				$fName = '"'.$Contestant['fName'].'"';
 				$lName = '"'.$Contestant['lName'].'"';
 				$Address = '"'.$Contestant['stAddress'].'"';
@@ -126,7 +125,6 @@ require_once('_php/PasswordVerifySessionModal.php');
 				$Zip = '"'.$Contestant['Zip'].'"';
 				$Email = '"'.$Contestant['Email'].'"';
 				$Phone = '"'.$Contestant['Phone'].'"';
-
 				echo ('
 						<fieldset  id="acctInfo">
 						<form action="./_php/editAccount.php" method="post">	
@@ -208,10 +206,8 @@ require_once('_php/PasswordVerifySessionModal.php');
 						</form>
 						</fieldset>
 					');
-
 				$SQL->closeCursor();
 				$db = null;
-
 			} catch (PDOException $e) {
 				$error_message = $e->getMessage();
 				echo("<p>Database error: $error_message</p>");
@@ -241,33 +237,25 @@ require_once('_php/PasswordVerifySessionModal.php');
 			$options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
 			$contID = $_SESSION["contId"];
 			$i = 1;
-
 			try {
 				$db = new PDO($dsn, $uname, $pwd, $options);
-
 				$SQL = $db->prepare("SELECT t.ticketNum FROM tblTickets t
 										JOIN tblContestants c ON c.contId = t.contId
 										WHERE c.contId = :contID
 										ORDER BY t.ticketNum ASC");
 				$SQL->bindValue(':contID', $contID);
-
 				$SQL->execute();
 				$Tickets = $SQL->fetch();
-
 				while ($Tickets != null){
 					$Ticket = $Tickets['ticketNum'];
-
 					echo("
 							<p><span class='label'>Ticket $i: </span>$Ticket</p>
 						");
-
 					$i++;
 					$Tickets = $SQL->fetch();
 				}
-
 				$SQL->closeCursor();
 				$db = null;
-
 			} catch (PDOException $e) {
 				$error_message = $e->getMessage();
 				echo("<p>Database error: $error_message</p>");
