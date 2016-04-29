@@ -44,22 +44,30 @@
     	</div>
     </div>
     <form action="http://battleonbago.azurewebsites.net/_php/LoginOut2.php" method="post">
-      <div id="sign-in">
-      	<?php
+      <div id="sign-in-block">
+        <?php
             if (isset($_COOKIE['FirstName'])) {
-                echo ('<h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>');
-                echo ('<h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>');
+                echo ('
+                  <div id="sign-in">
+                    <h2>Hello, ' . $_COOKIE['FirstName'] . '</h2>
+                  </div><br /><!--end "sign-in"-->
+                 ');
+                echo ('
+                  <div id="sign-in">
+                    <h4><a href="_php/Logout.php">Sign-out</a></h4>
+                  </div><!--end "sign-in"-->
+                ');
             } else {
                 echo ('                  
-                 <!--<div id="sign-in">-->
-                  <a href="account.php">Sign In</a>
-                <!--</div><br />-->
+                 <div id="sign-in">
+                    <a href="account.php">Sign In</a>
+                 </div><br /><!--end "sign-in"-->
                 ');
             }
         ?>
      </div><br />
     </form> 
-    <div id="nav">
+
    	 <nav>
     		<ul>
      			 <li><a href="/">Home</a></li>
@@ -69,7 +77,7 @@
      			 <li><a href="http://itweb.fvtc.edu/120297214/XML/BOB/final.html">Results</a></li>
      		 </ul>
    	 </nav> 
-    </div>
+
    
     <div class="content" style="float: left; max-height: 700px; width: 100%; overflow: scroll; overflow-x: hidden; margin-bottom: 10px; font-size: 24px;">
                         <table>
