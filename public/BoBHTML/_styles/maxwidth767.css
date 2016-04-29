@@ -52,10 +52,7 @@ nav a {
 #sign-in
 {
 	display:inline;
-	/*clear: both;*/
-
 	margin-right: 16%;
-	/*width: 95%;*/
 	height: 40px;
 	line-height: 40px;
 	float: right;
