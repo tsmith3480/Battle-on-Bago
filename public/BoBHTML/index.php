@@ -31,12 +31,12 @@
             if (isset($_COOKIE['FirstName'])) {
                 echo ('
                   <div id="sign-in">
-                    <h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>
+                    <h2>Hello, ' . $_COOKIE['FirstName'] . '</h2>
                   </div><br /><!--end "sign-in"-->
                  ');
                 echo ('
                   <div id="sign-in">
-                    <h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>
+                    <h4><a href="_php/Logout.php">Sign-out</a></h4>
                   </div><br /><!--end "sign-in"-->
                 ');
             } else {
