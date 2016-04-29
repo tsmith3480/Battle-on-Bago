@@ -50,18 +50,13 @@
                 echo ('<h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>');
                 echo ('<h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>');
             } else {
-                echo ('
-                    <div id="user_logIn">
-                        <input type="submit" class="button" name="btnLogin" id="btnLogin" onclick="return" value="Login"/><br />
-                        <input type="button" class="button" name="btnSignUp" id="btnSignUp" value="Sign Up" />
-                    </div>
-                    <div id="password_signup">
-                        <input type="email" class="textbox" id="email" name="email" placeholder="email" /><br />
-                        <input type="password" class="password" id="password" name="password" placeholder="password" />
-                    </div>
+                echo ('                  
+                 <!--<div id="sign-in">-->
+                  <a href="account.php">Sign In</a>
+                <!--</div><br />-->
                 ');
             }
-          ?>
+        ?>
      </div><br />
     </form> 
     <div id="nav">
