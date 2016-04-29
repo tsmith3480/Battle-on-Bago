@@ -135,7 +135,6 @@ legend
 #header
 {
 	width: 80%;
-	/*width: 66%;*/
 	display: block;
 	height:10px;
 }
@@ -156,7 +155,7 @@ legend
 	margin-top: 20px;
 	height: 28px;
 	line-height: 28px;
-	width: 12%;
+	width: 15%;
 	padding: 2px;
 	border:1px solid;
 	border-radius: 7px;
@@ -215,36 +214,6 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:focus
 	color: rgb(100,180,255);
 }
 
-/********** this is testing stuff ***************/
-/*#nav ul li {*/
-	/*float: left;*/
-/*	clear: both;
-	text-align: center;
-	margin: 1%;
-	padding: .25em;
-	background-image: linear-gradient(#035, #999 40%, #027 55%, #035);
-	border-radius: 8px;
-	border: 1px solid white;*/
-	/*text-shadow: -3px -5px 7px rgba(100,60,40,.5);*/
-/*}
-#nav a {
-	line-height: 40px;
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	font-size: 1.5em;
-}
-#nav ul li:hover {
-	color: #691314;
-	background-image: linear-gradient(#333, #999 40%, #333 55%, #999);
-}
-
-#nav a:hover {
-	color: #691314;
-	text-shadow: -1px -1px 10px rgba(255,255,255,.9);
-}*/
-
-/***********************************************/
 #body
 {
 	display: block;
