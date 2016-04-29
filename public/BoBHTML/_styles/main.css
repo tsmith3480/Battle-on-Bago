@@ -17,13 +17,39 @@ body
 
 /*This is just the stuff I messed with on 4/12 (Ian)*/
 
+#TextAndVideo video
+{
+	width: 100%;
+}
+
 #TextAndVideo
 {
 	float: left;
-	width: 38%;
+	width: 66%;
 	height: auto;
-	padding-top: 60px;
-	font-size: 1.9em;
+	padding-top: 40px;
+	padding: 2%;
+	text-align: center;	
+}
+
+#TextAndVideo h2
+{
+	padding-top: 20px;
+	font-size: 2.8em;
+	text-align: center;
+}
+
+#TextAndVideo h3
+{
+	font-size: 1.4em;
+	line-height: 1.7em;
+}
+
+#TextAndVideo p
+{
+	font-size: 1.1em;
+	line-height: 1.5em;
+	text-align: left;
 }
 
 #formentry
@@ -90,13 +116,12 @@ legend
 	color: white;
 	font-size: 62.5%; 
 	width: 80%;
-	/*max-height: 2000px;*/
+	max-height: 2000px;
 	max-width: 1000px;
 	min-height: 100%;
-	height:1000px;
+	height:100%;
 	margin: 0 auto -200px;
-	padding: 2%;
-	/*background-color: rgba(31,54,96,0.90);*/
+	margin-top: 10px;
 	background: -moz-linear-gradient(top, #193443 0%, #3f545f 100%); /* FF3.6+ */
 	background: -webkit-linear-gradient(top, #193443 0%,#3f545f 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top, #193443 0%,#3f545f 100%); /* Opera 11.10+ */
@@ -109,147 +134,117 @@ legend
 
 #header
 {
+	width: 80%;
+	/*width: 66%;*/
 	display: block;
-	height:70px;
+	height:10px;
 }
 
-#logo 
+#logo img
 {
+	margin: auto;
 	float:left;
-	height: 100px;
-	width:110px;	
+	width:100%;	
 	overflow:hidden;
 }
 
 #sign-in
 {
-	float: right;
 	display: block;
-	height: 70px;
-}
-
-#sign-in h2 {
-	font-size: 20px;
-	margin-bottom: 10px;
-}
-
-#sign-in h4 {
-	font-size: 14px;
-	text-align:center;
-	background-image: linear-gradient(#035, #999 40%, #027 55%, #035);
-	padding: 3px;
-	margin: 2px;
-	border: solid 1px;
-	border-radius: 7px;
-	border-color: white;
-}
-
-#sign-in h4:hover {
-	border: outset 1px;
-	color: lightgrey;
-}
-
-#sign-in h4:active {
-	border: inset 1px;
-	color: darkgrey;
-}
-
-#sign-in a {
-	color: white;
-	text-decoration: none;
-}
-
-#sign-in a:hover {
-	color: lightgrey;
-}
-
-#sign-in a:active {
-	color: darkgrey;
-}
-
-#user_logIn
-{
-	float:right;
-	display: block;
-}
-
-#password_signup
-{
-	float:right;
-	display: block;
-}
-
-#password_signup input {
-	float: left;
-	width: 150px;
-	height: 15px;
-}
-
-.button
-{
-	background-image: linear-gradient(#035, #999 40%, #027 55%, #035);
+	float: right;	
+	margin: 8px;
+	margin-top: 20px;
+	height: 28px;
+	line-height: 28px;
+	width: 12%;
+	padding: 2px;
 	border:1px solid;
 	border-radius: 7px;
-	height: 20px;
-	width: 80px;
+	background-image: linear-gradient(#035, #999 40%, #027 55%, #035);
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;
 	color: white;
-	margin: 2px;
-	cursor: pointer;
 }
 
-.button:hover {
-	border-style: outset;
-	color: lightgray;
+#sign-in a
+{	
+	text-decoration: none;
+	color: white;
 }
 
-.button:active {
-	border-style: inset;
-	color: darkgray;
+#sign-in:hover, #sign-in:active, #sign-in:focus {
+	color: rgb(100,180,255);
 }
 
-.textbox, .password
+#sign-in a:hover, #sign-in a:active, #sign-in a:focus  {
+	color: rgb(100,180,255);
+}
+
+nav
 {
-	height: 12px;
-	width: 80px;
-	margin: 3px;
-}
-
-#nav
-{
-	margin-left: 100px;
 	display:block;
 	clear:both;
-	padding-top:30px;
 }
 
-#nav ul li 
+nav ul li 
 {
 	float: left;
-	width: 15%;
+	width: 18%;
     height: 100%;
     text-align: center;
     margin: 1%;
 	display:block;        
 }
-#nav ul li a 
+nav a 
 {
 	text-decoration: none;
 	display: block;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: bold;
 	width: 100%;
-	line-height: 20px;
+	line-height: 30px;
 	background-image: linear-gradient(#035, #999 40%, #027 55%, #035);
 	border:1px solid;
 	border-radius: 7px;
-	height: 20px;
+	height: 30px;
 	color: white;
 }
-#nav ul li a:hover, #nav ul li a:active, #nav ul li a:focus 
+nav ul li a:hover, nav ul li a:active, nav ul li a:focus 
 {
 	color: rgb(100,180,255);
 }
 
+/********** this is testing stuff ***************/
+/*#nav ul li {*/
+	/*float: left;*/
+/*	clear: both;
+	text-align: center;
+	margin: 1%;
+	padding: .25em;
+	background-image: linear-gradient(#035, #999 40%, #027 55%, #035);
+	border-radius: 8px;
+	border: 1px solid white;*/
+	/*text-shadow: -3px -5px 7px rgba(100,60,40,.5);*/
+/*}
+#nav a {
+	line-height: 40px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#nav ul li:hover {
+	color: #691314;
+	background-image: linear-gradient(#333, #999 40%, #333 55%, #999);
+}
+
+#nav a:hover {
+	color: #691314;
+	text-shadow: -1px -1px 10px rgba(255,255,255,.9);
+}*/
+
+/***********************************************/
 #body
 {
 	display: block;
@@ -262,9 +257,10 @@ legend
 #sponsors
 {
 	float: right;
-	width: 38%;
+	width: 28%;
 	height: auto;
 	padding-top: 30px;
+	padding-right:2%;
 	font-size: 1.9em;
 }
 
