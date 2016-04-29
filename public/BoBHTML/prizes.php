@@ -6,19 +6,19 @@
   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
 
   <title>Battle on Bago Prizes</title>
     <link href="_styles/main.css" type="text/css" rel="stylesheet" />
+    <link href="_styles/maxwidth767.css" rel="stylesheet" media="only screen and (max-width : 767px)"/>
     <style>
         ::-webkit-scrollbar {
             width: 12px;  /* for vertical scrollbars */
             height: 12px; /* for horizontal scrollbars */
         }
-
         ::-webkit-scrollbar-track {
             background: rgba(0, 0, 0, 0.1);
         }
-
         ::-webkit-scrollbar-thumb {
             background: rgba(0, 0, 0, 0.5);
         }
@@ -38,8 +38,8 @@
   	<div id="header">
   		<div id="logo">
    			 <header>
-				<img src="_images/BobLogo.png" alt="BoB Logo" />
-      			<h1>Welcome to Battle on Bago</h1>
+				<img src="_images/Bob-Logo-Header.png" alt="BoB Logo" />
+      			<!--<h1>Welcome to Battle on Bago</h1>-->
     		</header>
     	</div>
     </div>
@@ -55,7 +55,6 @@
                         <input type="submit" class="button" name="btnLogin" id="btnLogin" onclick="return" value="Login"/><br />
                         <input type="button" class="button" name="btnSignUp" id="btnSignUp" value="Sign Up" />
                     </div>
-
                     <div id="password_signup">
                         <input type="email" class="textbox" id="email" name="email" placeholder="email" /><br />
                         <input type="password" class="password" id="password" name="password" placeholder="password" />
