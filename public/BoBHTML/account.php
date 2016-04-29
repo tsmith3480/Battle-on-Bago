@@ -15,8 +15,9 @@ require_once('_php/PasswordVerifySessionModal.php');
 	<title>My Account</title>
 	
 	<meta name="viewport" content="width=device-width">
-	<link href="_styles/maxwidth767.css" rel="stylesheet" media="only screen and (max-width : 767px)">
+	
 	<link href="_styles/main.css" type="text/css" rel="stylesheet" />
+	<link href="_styles/maxwidth767.css" rel="stylesheet" media="only screen and (max-width : 767px)"/>
 	<script>
 		function confirm_action() {
 			return confirm("Are you sure you wish to delete your account?\nThis cannot be undone.\n\nClick OK to continue or Cancel to return.")
@@ -65,25 +66,20 @@ require_once('_php/PasswordVerifySessionModal.php');
 	<form action="http://battleonbago.azurewebsites.net/_php/LoginOut2.php" method="post">
 		<div id="sign-in">
 			<?php
-			if (isset($_COOKIE['FirstName'])) {
-				echo ('<h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>');
-				echo ('<h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>');
-			} else {
-				echo ('
-                    <div id="user_logIn">
-                        <input type="submit" class="button" name="btnLogin" id="btnLogin" onclick="return" value="Login"/><br />
-                        <input type="button" class="button" name="btnSignUp" id="btnSignUp" value="Sign Up" />
-                    </div>
-                    <div id="password_signup">
-                        <input type="email" class="textbox" id="email" name="email" placeholder="email" /><br />
-                        <input type="password" class="password" id="password" name="password" placeholder="password" />
-                    </div>
+            if (isset($_COOKIE['FirstName'])) {
+                echo ('<h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>');
+                echo ('<h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>');
+            } else {
+                echo ('                  
+                 <!--<div id="sign-in">-->
+                  <a href="account.php">Sign In</a>
+                <!--</div><br />-->
                 ');
-			}
-			?>
+            }
+        ?>
 		</div><br />
 	</form>
-	<div id="nav">
+
 		<nav>
 			<ul>
 				<li><a href="/">Home</a></li>
@@ -93,7 +89,7 @@ require_once('_php/PasswordVerifySessionModal.php');
 				<li><a href="http://itweb.fvtc.edu/120297214/XML/BOB/final.html">Results</a></li>
 			</ul>
 		</nav>
-	</div>
+
 
 	<div id="accountdetails">
 		
