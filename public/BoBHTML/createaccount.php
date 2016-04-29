@@ -6,12 +6,12 @@
   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
 
   <title>Create Account</title>
   
-  <meta name="viewport" content="width=device-width">
-  <link href="_styles/maxwidth767.css" rel="stylesheet" media="only screen and (max-width : 767px)"/>
   <link href="_styles/main.css" type="text/css" rel="stylesheet" />
+  <link href="_styles/maxwidth767.css" rel="stylesheet" media="only screen and (max-width : 767px)"/>
   
 <script type="text/javascript">
 			
@@ -115,15 +115,10 @@
                 echo ('<h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>');
                 echo ('<h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>');
             } else {
-                echo ('
-                    <div id="user_logIn">
-                        <input type="submit" class="button" name="btnLogin" id="btnLogin" onclick="return" value="Login"/><br />
-                        <input type="button" class="button" name="btnSignUp" id="btnSignUp" value="Sign Up" />
-                    </div>
-                    <div id="password_signup">
-                        <input type="email" class="textbox" id="email" name="email" placeholder="email" /><br />
-                        <input type="password" class="password" id="password" name="password" placeholder="password" />
-                    </div>
+                echo ('                  
+                 <!--<div id="sign-in">-->
+                  <a href="account.php">Sign In</a>
+                <!--</div><br />-->
                 ');
             }
         ?>
