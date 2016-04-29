@@ -12,7 +12,7 @@
     <title>Battle on Bago Home Page</title>
     
     <link href="_styles/main.css" type="text/css" rel="stylesheet" />
-    <link href="_styles/maxwidth767.css" rel="stylesheet" media="only screen and (max-width : 767px)">
+    <link href="_styles/maxwidth767.css" rel="stylesheet" media="only screen and (max-width : 767px)"/>
 </head>
 
 <body>
@@ -26,16 +26,24 @@
     </div><!-- end "header" -->
 
     <form action="http://battleonbago.azurewebsites.net/_php/LoginOut2.php" method="post">
-        <div id="sign-in">
+        <div id="sign-in-block">
         <?php
             if (isset($_COOKIE['FirstName'])) {
-                echo ('<h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>');
-                echo ('<h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>');
+                echo ('
+                  <div id="sign-in">
+                    <h2>Welcome, ' . $_COOKIE['FirstName'] . '</h2>
+                  </div><br /><!--end "sign-in"-->
+                 ');
+                echo ('
+                  <div id="sign-in">
+                    <h4><a href="_php/Logout.php">Not you? Sign-out</a></h4>
+                  </div><br /><!--end "sign-in"-->
+                ');
             } else {
                 echo ('                  
-                 <!--<div id="sign-in">-->
-                  <a href="account.php">Sign In</a>
-                <!--</div><br />-->
+                 <div id="sign-in">
+                    <a href="account.php">Sign In</a>
+                 </div><br /><!--end "sign-in"-->
                 ');
             }
         ?>
