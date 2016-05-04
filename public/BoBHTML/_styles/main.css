@@ -19,7 +19,7 @@ body
 
 #PDS
 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 /*This is just the stuff I messed with on 4/12 (Ian)*/
 
@@ -79,7 +79,7 @@ input
 {
 	display: inline-block;
 	float: right;
-	padding-right: 50px;
+	padding-right: 500px;
 }
 
 #lstState
@@ -95,7 +95,7 @@ legend
 
 #accountdetails
 {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	padding-top: 70px;
 }
 
@@ -110,7 +110,7 @@ legend
 #TicketReg
 {
 	text-align: left;
-	display: inline-block;
+	display: absolute;
 	float: right;
 	clear: left;
 }
@@ -118,7 +118,7 @@ legend
 #RegTickets
 {
 	text-align: left;
-	display: inline-block;
+	display: absolute;
 	float: right;
 	clear: left;
 }

@@ -147,7 +147,9 @@
     <div id="PDS">
       <form name="PDS" id="PDS" action="http://battleonbago.azurewebsites.net/_php/newConst.php" method="post">
      		 <fieldset>
+     		 	<br />
 					<legend>Please Enter Your Infomation</legend>
+					<hr />
 					<br />
 						<label for="txtFirstName">First Name:</label><input type="text" id="txtFirstName" name="txtFirstName" autofocus=""/>
 							<br />
