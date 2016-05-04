@@ -15,12 +15,6 @@ body
 	font-family: Tahoma, Geneva, sans-serif;
 }
 
-/*5/4 Changes (Ian) */
-
-#PDS
-{
-	font-size: 1.2em;
-}
 /*This is just the stuff I messed with on 4/12 (Ian)*/
 
 #TextAndVideo video
@@ -70,16 +64,10 @@ body
 	clear: left;
 }
 
-#TicketReg2, p
-{
-	float: right;
-}
-
 input
 {
 	display: inline-block;
 	float: right;
-	margin-left: 500px;
 }
 
 #lstState
@@ -95,7 +83,7 @@ legend
 
 #accountdetails
 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	padding-top: 70px;
 }
 
@@ -111,15 +99,7 @@ legend
 {
 	text-align: left;
 	display: inline-block;
-	float: right;
-	clear: left;
-}
-
-#RegTickets
-{
-	text-align: left;
-	display: inline-block;
-	float: right;
+	float: left;
 	clear: left;
 }
 
