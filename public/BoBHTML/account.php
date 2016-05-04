@@ -235,7 +235,7 @@ require_once('_php/PasswordVerifySessionModal.php');
 			</div>
 		</form>
         </form>
-        <div id="RegTickets">
+       <br />
 		<fieldset class="RegisteredTickets" name="RegTick">
 			<legend>Registered Tickets</legend>
 			<hr />
