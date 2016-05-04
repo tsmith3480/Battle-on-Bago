@@ -222,17 +222,24 @@ require_once('_php/PasswordVerifySessionModal.php');
 				<input type="submit" class="button" name="btnDelete" id="btnDelete" value="Delete Account" onclick="return confirm_action()"/>
 			</form>
 		</fieldset>
-
+		
+		<div id="TicketReg">
 		<form class="TicketRegistration" name="TicketReg" action="http://battleonbago.azurewebsites.net/_php/addTicket.php"  method="post">
 
-			<h2>Ticket Registration</h2><br />
+			<h2>Ticket Registration</h2>
+			<hr />
+			<br />
 			<label for="txtTicket">Ticket #:</label><input type="text" id="txtTicket" name="txtTicket" />
             <br /><br />
 			<input type="submit" value="Register Ticket" />
+			</div>
 		</form>
         </form>
+        <div id="RegTickets">
 		<fieldset class="RegisteredTickets" name="RegTick">
 			<legend>Registered Tickets</legend>
+			<hr />
+			<br />
 			<?php
 			$dsn = 'sqlsrv:Server=agilebob.database.windows.net;Database=bob';
 			$uname = 'bobadmin';
@@ -266,6 +273,7 @@ require_once('_php/PasswordVerifySessionModal.php');
 			}
 			?>
 		</fieldset>
+		</div>
 	</div>
 
 	<footer>
