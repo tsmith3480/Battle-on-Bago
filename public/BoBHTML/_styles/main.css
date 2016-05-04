@@ -79,7 +79,7 @@ input
 {
 	display: inline-block;
 	float: right;
-	padding-right: 500px;
+	margin-left: 500px;
 }
 
 #lstState
@@ -110,7 +110,7 @@ legend
 #TicketReg
 {
 	text-align: left;
-	display: absolute;
+	display: inline-block;
 	float: right;
 	clear: left;
 }
@@ -118,7 +118,7 @@ legend
 #RegTickets
 {
 	text-align: left;
-	display: absolute;
+	display: inline-block;
 	float: right;
 	clear: left;
 }
