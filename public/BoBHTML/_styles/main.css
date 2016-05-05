@@ -98,7 +98,7 @@ legend
 {
 	text-align: left;
 	display: inline-block;
-	float: left;
+	
 }
 
 #RegTick
@@ -256,8 +256,9 @@ footer
 .AccountDetails {
 	display: block;
 	float: left;
-	width: 300px;
+	width: 350px;
 	clear: both;
+	margin-right: 350px;
 }
 
 .AccountDetails .button {
