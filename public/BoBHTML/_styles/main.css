@@ -288,6 +288,7 @@ footer
 	display: block;
 	float: left;
 	width: 300px;
+	text-align: left;
 }
 
 .RegisteredTickets .label {
