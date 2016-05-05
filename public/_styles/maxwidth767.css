@@ -1,0 +1,63 @@
+#wrap
+{
+	width: 90%;
+}
+
+nav
+{
+	padding-top:0px;
+	width: 97%;
+	float: left;
+	margin: 1%;
+	display:inline;
+	clear:both;
+}
+nav ul li {
+	width: 99%;
+	text-align: center;
+	margin: 1%;
+}
+nav a {
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#TextAndVideo
+{
+	width: 96%;
+}
+
+#sponsors
+{
+	width: 96%;
+	display: inline;
+	clear: both;
+	float: left;
+	padding:2%;
+}
+
+#header 
+{
+	width:98%;
+}
+#logo img
+{
+	width:90%;
+	
+}
+#sign-in
+{
+	display:inline;
+	margin-right: 16%;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	width: 65%;
+	padding: 0px;
+	font-size: 1.5em;
+}
+
