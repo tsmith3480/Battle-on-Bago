@@ -1,4 +1,5 @@
 <?php
+session_start();
 if(sizeof($_POST)==0)
 {
     header('Location:/createaccount.php');//sends back to browser if someone comes here first must be 1st thing before code
@@ -198,6 +199,11 @@ sqlsrv_next_result($stmt3);
 /*Free the statement and connection resources. */
 sqlsrv_free_stmt( $stmt3);
 sqlsrv_close( $conn);
-
+$_SESSION["contId"] = $contId;
+$_SESSION["contEmail"] = $eMail;
+$_SESSION["contPass"] = $Password;
+#echo "You are contestant ". $_SESSION["contId"], " ", $_SESSION["contEmail"], " ", $_SESSION["contPass"];
+    setcookie('FirstName', $fName, strtotime('+1 week'), "/");
+  
 header('Location: /account.php');
 ?>
