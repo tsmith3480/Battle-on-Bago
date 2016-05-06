@@ -13,85 +13,88 @@
   <link href="_styles/main.css" type="text/css" rel="stylesheet" />
   <link href="_styles/maxwidth767.css" rel="stylesheet" media="only screen and (max-width : 767px)"/>
   
-<script type="text/javascript">
-			
-			function Validate ()
-			{
-				var txtFirstName = document.getElementById("txtFirstName");
-				var txtLastName = document.getElementById("txtLastName");
-				var txtEmail = document.getElementById("txtEmail");
-				var txtPhone = document.getElementById("txtPhone");
-				var phoneRegex = /^\(\d{3}\)\d{3}-\d{4}&/;
-				var txtAddress = document.getElementById("txtAddress");
-				var txtCity = document.getElementById("txtCity");
-				var lstState = document.getElementById("lstState");
-				var txtZip = document.getElementById("txtZip");
-				var txtPassword = document.getElementById("txtPassword");
-				var txtPassword2 = document.getElementById("txtPassword2");
-				// var NameCombine = txtFirstName.value + " " + txtLastName.value;
-				// alert(NameCombine);
-				if(txtFirstName.value=="")
-				{
-					alert("First Name is Required");
-					txtFirstName.focus();
-					return false;
-				}
-				
-				if(txtLastName.value=="")
-				{
-					alert("Last Name is Required");
-					txtLastName.focus();
-					return false;
-				}
-				
-				if(txtEmail.value.indexOf("@") == -1 || txtEmail.value.indexOf(".") == -1)
-				{
-					alert("Please Enter a Valid Email");
-					txtEmail.focus();
-					txtEmail.select();
-					return false;
-				}
-				
-				if(!phoneRegex.test(txtPhone.value))
-				{
-					alert("Please Enter a Valid Phone Number");
-					txtPhone.focus();
-					txtPhone.select();
-					return false;
-				}
-				
-				if(txtAddress.value=="")
-				{
-					alert("Address is Required");
-					txtAddressfocus();
-					return false;
-				}
-				
-				if(txtCity.value=="")
-				{
-					alert("City is Required");
-					txtCity.focus();
-					return false;
-				}
-				
-				
-				if(txtZip.value.length!=5 || isNaN(txtZip.value))
-				{
-					alert("Please enter a valid Zip code");
-					txtZip.focus();
-					return false;
-				}
-				
-				if(txtPassword.value!=txtPassword2.value)
-				{
-					alert("Your Passwords must match!");
-					txtPassword.focus();
-					return false;
-				}
-				return True;
-			}
-			
-		</script>
+    <script type="text/javascript">
+
+   function Validate() {
+
+        //alert(document.frmSignup.txtfirstName.value.length);
+        if (document.PDS.txtFirstName.value.length == 0) {
+             document.getElementById('errors').innerHTML = "Enter your first name please";
+            //alert("Please enter your First Name!");
+            document.PDS.txtFirstName.focus();
+            return false;
+        }
+        if (document.PDS.txtLastName.value.length == 0) {
+            document.getElementById('errors').innerHTML = "Enter your last name please";
+           // alert("Please enter your Last Name!");
+            document.PDS.txtLastName.focus();
+            return false;
+        }
+        if (document.PDS.txtEmail.value.indexOf("@") == -1) {
+            document.getElementById('errors').innerHTML = "Check email entry please";
+           // alert("Please enter your email!");
+            document.PDS.txtEmail.focus();
+            return false;
+        }
+        var tPhone = /^[2-9]\d{2}-\d{3}-\d{4}$/;
+        if (!tPhone.test(document.PDS.txtPhone.value)) {
+            document.getElementById('errors').innerHTML = "Phone number format ###-###-####";
+            //alert("Please enter your Phone 1st digit 2 to 9, ###-###-####!")
+            document.PDS.txtPhone.focus();
+            return false;
+        }
+        if (document.PDS.txtAddress.value.length == 0) {
+            document.getElementById('errors').innerHTML = "Your address is required"
+           // alert("Please enter your address!");
+            document.PDS.txtAddress.focus();
+            return false;
+        }
+        if (document.PDS.txtCity.value.length == 0 ) {
+            document.getElementById('errors').innerHTML = "City field is required"
+           // alert("Please enter your City!");
+            document.PDS.txtCity.focus();
+            return false;
+        }
+        if (document.PDS.lstState.selectedIndex == 0 || document.PDS.txtCity.value.length == "Select") {
+            document.getElementById('errors').innerHTML = "Pick A state"
+            //alert("Please select a State!");
+            document.PDS.lstState.focus();
+            return false;
+        }
+
+        var ZipEdit = /^\d{5}$|^\d{5}-\d{4}$/;
+        if (!ZipEdit.test(document.PDS.txtZip.value)) {
+            document.getElementById('errors').innerHTML = "Check Zip code entry"
+            //alert("Please enter your 5 digit Zip code!")
+            document.PDS.txtZip.focus();
+            return false;
+        }
+
+        if (document.PDS.txtPassword.value.length == 0) {
+            document.getElementById('errors').innerHTML = "Enter Password";
+            // alert("Please enter your Last Name!");
+            document.PDS.txtPassword.focus();
+            return false;
+        }
+
+        if (document.PDS.txtPassword2.value.length == 0) {
+            document.getElementById('errors').innerHTML = "Enter Verify Password";
+            // alert("Please enter your Last Name!");
+            document.PDS.txtPassword2.focus();
+            return false;
+        }
+        var str1 = document.getElementById("txtPassword");
+        var str2 = document.getElementById("txtPassword2");
+        if (str1.value != str2.value) {
+            document.getElementById('errors').innerHTML = "Passwords don't match";
+            // alert("Please enter your Last Name!");
+            document.PDS.txtPassword2.focus();
+            return false;
+        }
+        return true;
+    }
+
+    </script>
 
 
 
@@ -157,10 +160,10 @@
 						<label for="txtLastName">Last Name:</label><input type="text" id="txtLastName" name="txtLastName" />
 							<br />
 							<br />
-						<label for="txtEmail">Email:</label><input type="email" id="txtEmail" name="txtEmail"/>
+						<label for="txtEmail">Email:</label><input type="text" id="txtEmail" name="txtEmail"/>
 							<br />
 							<br />
-						<label for="txtPhone">Phone#:</label><input type="text" id="txtPhone" name="txtPhone" placeholder="(###)###-####"/>
+						<label for="txtPhone">Phone#:</label><input type="text" id="txtPhone" name="txtPhone" placeholder="###-###-####"/>
 							<br />
 							<br />
 						<label for="txtAddress">Address:</label><input type="text" id="txtAddress" name="txtAddress" />
@@ -244,8 +247,9 @@
 					<input type="password" id="txtPassword2" name="txtPassword2" />
 
                     <br />
+                  <h1 id="errors" style="text-align: center; color: red;"></h1>
 					<br />
-						<input type="submit" value="Create Account" onclick="return"/>
+						<input type="submit" value="Create Account" onclick="return Validate()"/>
 						<br />
 						<br />
 					<input type="reset" value="Reset" onClick="window.location.reload()"/>
