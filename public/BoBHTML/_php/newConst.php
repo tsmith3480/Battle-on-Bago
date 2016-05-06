@@ -1,72 +1,152 @@
 <?php
 if(sizeof($_POST)==0)
 {
-header("Location:Signup.htm");//sends back to browser if someone comes here first must be 1st thing before code
-exit;
+    header('Location:/createaccount.php');//sends back to browser if someone comes here first must be 1st thing before code
+    exit();
 }
-if(isset($_POST['txtFirstName']))
+if(empty($_POST['txtFirstName']))
 {
-$fName = $_POST['txtFirstName'];
-}
-else
-{
-$fName = "notsubmitted";
-}
-if(isset($_POST['txtLastName']))
-{
-$lName = $_POST['txtLastName'];
+
+	header('Location:/createaccount.php');
+	
+    exit();
 }
 else
 {
-$lName = "notsubmitted";
+	$firstName = $_POST["txtFirstName"];
 }
-if(isset($_POST['txtAddress']))
+
+//last name
+if(empty($_POST['txtLastName']))
 {
-$Address = $_POST['txtAddress'];
-}
-else
-{
-$Address = "notsubmitted";
-}
-if(isset($_POST['txtCity']))
-{
-$City = $_POST['txtCity'];
+	header('Location:/createaccount.php');
+	exit();
 }
 else
 {
-$City = "notsubmitted";
+	$lastName = $_POST["txtLastName"];
 }
-if(isset($_POST['lstState']))
+
+//email
+if(empty($_POST['txtEmail']))
 {
-$State = $_POST['lstState'];
-}
-else
-{
-$State = "notsubmitted";
-}
-if(isset($_POST['txtZip']))
-{
-$Zip = $_POST['txtZip'];
+	header('Location:/createaccount.php');
+    exit();
 }
 else
 {
-$Zip = "notsubmitted";
+	$email = $_POST["txtEmail"];
+	$atPos = strpos($email, "@");
+    $perPos = strpos($email, ".");
+    if($atPos === false or $perPos === false)
+    {
+		header('Location:/createaccount.php');
+		exit();
+    }
 }
-if(isset($_POST['txtPhone']))
+
+//Phone
+if(empty($_POST["txtPhone"]))
 {
-$Phone = $_POST['txtPhone'];
+	header('Location:/createaccount.php');
+    exit();
 }
 else
 {
-$Phone = "notsubmitted";
+	$phone = $_POST["txtPhone"];
+
 }
-if(isset($_POST['txteMail']))
+
+$pattern = "/^\(\d{3}\)\d{3}-\d{4}&/";///^[2-9]\d{2}-\d{3}-\d{4}$/
+
+if (!(preg_match($pattern, $phone)))
 {
-$eMail = $_POST['txteMail'];
+	header('Location:/createaccount.php');
+    exit();
+}
+
+
+if(empty($_POST["txtAddress"]))
+{
+	header('Location:/createaccount.php');
+    exit();
 }
 else
 {
-$eMail = "notsubmitted";
+	$address = $_POST["txtAddress"];
+}
+
+//City
+if(empty($_POST["txtCity"]))
+{
+	header('Location:/createaccount.php');
+    exit();
+}
+else
+{
+	$city = $_POST["txtCity"];
+}
+
+//state
+if(empty($_POST["lstState"]))
+{
+	header('Location:/createaccount.php');
+    exit();
+}
+
+
+//Zip
+if(empty($_POST["txtZip"]))
+{
+	header('Location:/createaccount.php');
+    exit();
+}
+else
+{
+	$zip = $_POST["txtZip"];
+}
+
+if(!(is_numeric($zip)))
+{
+	header('Location:/createaccount.php');
+    exit();
+}
+
+if(strlen($zip) != 5)
+{
+	header('Location:/createaccount.php');
+    exit();
+}
+
+
+//Password
+if(empty($_POST["txtPassword"]))
+{
+	header('Location:/createaccount.php');
+	exit();
+}
+else
+{
+	$password1 = $_POST["txtPassword"];
+}
+
+//Verify Password
+if(empty($_POST["txtPassword2"]))
+{
+	header('Location:/createaccount.php');
+    exit();
+}
+else
+{
+	$verPassword = $_POST["txtPassword2"];
+}
+
+$same = strcmp($password1, $verPassword);
+
+if($same != 0)
+{
+	header('Location:/createaccount.php');
+    exit();
 }
 $fName = $_POST['txtFirstName'];
 $lName = $_POST['txtLastName'];
