@@ -57,7 +57,7 @@
             <li><a href="account.php">My Account</a></li>
             <li><a href="createaccount.php">Create Account</a></li>
             <li><a href="prizes.php">Prizes</a></li>
-            <li><a href="http://itweb.fvtc.edu/120297214/XML/BOB/final.html">Results</a></li>
+            <li><a href="liveResults.html">Results</a></li>
         </ul>
     </nav>
     
