@@ -66,6 +66,7 @@
     </div>
     
     <div id="TextAndVideo">
+        <h1><b>Welcome to Battle On Bago!</b></h1>
     	<video width="320" height="178" preload="auto" controls>
 
 			<source src="_video/timelapse.mp4" type="video/mp4">
@@ -74,8 +75,6 @@
 
 			<p>Your browser does not support the HTML5 video tag. Please update to a current browser.</p>
 		</video>
-		
-		<h2><b>Welcome to Battle On Bago!</b></h2>
 		</br> 
 		<h3><b>The MidWest’s largest ice fishing tournament and the family and fishing event of The year!</b></h3>
 		</br>
