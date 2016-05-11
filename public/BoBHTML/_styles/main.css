@@ -311,3 +311,9 @@ fieldset#editInfo .actinfo:hover {
 	background: grey;
 	font-weight: bolder;
 }
+
+/* Create account styles */
+fieldset#PDS {
+	width: 80%;
+	margin: 0 auto;
+}
