@@ -317,3 +317,13 @@ div#PDS fieldset{
 	width: 80%;
 	margin: 0 auto;
 }
+
+div#PDS fieldset legend {
+	font-size: 14em;
+	font-weight: bolder;
+}
+
+div#PDS fieldset label {
+	font-size: 10em;
+	font-weight: bold;
+}
