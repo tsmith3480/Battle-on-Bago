@@ -295,14 +295,14 @@ footer
 	height: 40px;
 }
 
-#TicketReg {
+#TicketReg, #TicketReg form{
 	display: block;
 	float: left;
 	width: 100%;
 	clear: both;
 }
 
-#TicketReg legend {
+#TicketReg h2 {
 	font-size: 3em;
 	font-weight: bolder;
 }
