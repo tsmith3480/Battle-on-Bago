@@ -336,3 +336,8 @@ div#PDS fieldset input, div#PDS fieldset select {
 div#PDS fieldset select {
 	width: 150px;
 }
+
+div#PDS fieldset .frmSubmit {
+	display: inline-block;
+	float: right;
+}

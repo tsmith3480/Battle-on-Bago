@@ -249,10 +249,10 @@
                     <br />
                   <h1 id="errors" style="text-align: center; color: red;"></h1>
 					<br />
-						<input type="submit" value="Create Account" onclick="return Validate()"/>
+						<input class="frmSubmit" type="submit" value="Create Account" onclick="return Validate()"/>
 						<br />
 						<br />
-					<input type="reset" value="Reset" onClick="window.location.reload()"/>
+					<input class="frmSubmit" type="reset" value="Reset" onClick="window.location.reload()"/>
 				</fieldset>
 				<br />
 
