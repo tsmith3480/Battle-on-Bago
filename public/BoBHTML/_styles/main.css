@@ -341,8 +341,16 @@ footer
 .RegisteredTickets {
 	display: block;
 	float: left;
-	width: 300px;
+	width: 100%;
 	text-align: left;
+}
+
+.RegisteredTickets legend {
+	font-size: 3em;
+}
+
+.RegisteredTickets ol li {
+	font-size: 2em;
 }
 
 .RegisteredTickets .label {
