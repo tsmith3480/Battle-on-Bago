@@ -292,6 +292,7 @@ footer
 
 .RegisteredTickets .label {
 	width: 50px;
+	padding-left: 10px;
 }
 
 .TicketRegistration {
