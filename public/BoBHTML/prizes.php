@@ -76,8 +76,11 @@
      			 <li><a href="prizes.php">Prizes</a></li>
      			 <li><a href="liveResults.html">Results</a></li>
      		 </ul>
-   	 </nav> 
+   	 </nav>
 
+      <div class="sponsors">
+          <img src="_images/sponsors_home3.jpg" alt="Sponsors" />
+      </div>
    
     <div class="content" style="float: left; max-height: 700px; width: 100%; overflow: scroll; overflow-x: hidden; margin-bottom: 10px; font-size: 24px;">
                         <table>

@@ -337,6 +337,11 @@ div#PDS fieldset select {
 	width: 150px;
 }
 
+.sponsors {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .sponsors img {
 	width: 100%;
 }

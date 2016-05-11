@@ -61,6 +61,10 @@
         </ul>
     </nav>
     
+    <div class="sponsors">
+        <img src="_images/sponsors_home3.jpg" alt="Sponsors" />
+    </div>
+    
     <div id="TextAndVideo">
     	<video width="320" height="178" preload="auto" controls>
 

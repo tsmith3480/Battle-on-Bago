@@ -97,6 +97,10 @@ require_once('_php/PasswordVerifySessionModal.php');
 			</ul>
 		</nav>
 
+	<div class="sponsors">
+		<img src="_images/sponsors_home3.jpg" alt="Sponsors" />
+	</div>
+
 
 	<div id="accountdetails">
 		
