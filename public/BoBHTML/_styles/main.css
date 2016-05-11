@@ -320,6 +320,10 @@ footer
 	float: left;
 }
 
+#TicketReg form .tktSubmit {
+	clear: both;
+}
+
 .label {
 	display: block;
 	float: left;

@@ -235,7 +235,7 @@ require_once('_php/PasswordVerifySessionModal.php');
 			<br />
 			<label for="txtTicket">Ticket #:</label><input type="text" id="txtTicket" name="txtTicket" />
             <br /><br />
-			<input type="submit" value="Register Ticket" />
+			<input class="tktSubmit" type="submit" value="Register Ticket" />
 			</div>
 		</form>
         </form>
