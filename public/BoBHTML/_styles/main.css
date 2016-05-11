@@ -338,6 +338,6 @@ div#PDS fieldset select {
 }
 
 div#PDS fieldset .frmSubmit {
-	display: inline-block;
+	display: block;
 	float: right;
 }
