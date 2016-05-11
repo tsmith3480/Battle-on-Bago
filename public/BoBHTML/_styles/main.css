@@ -300,7 +300,6 @@ footer
 	float: left;
 	width: 100%;
 	clear: both;
-	float: left;
 }
 
 #TicketReg h2 {
@@ -313,6 +312,7 @@ footer
 	font-weight: bold;
 	padding-left: 30px;
 	width: 250px;
+	float: left;
 }
 
 #TicketReg form input {
