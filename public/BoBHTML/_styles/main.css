@@ -319,11 +319,11 @@ div#PDS fieldset{
 }
 
 div#PDS fieldset legend {
-	font-size: 5em;
+	font-size: 3em;
 	font-weight: bolder;
 }
 
 div#PDS fieldset label {
-	font-size: 4em;
+	font-size: 2em;
 	font-weight: bold;
 }
