@@ -67,7 +67,7 @@
     
     <div id="TextAndVideo">
         <h2><b>Welcome to Battle On Bago!</b></h2>
-    	<video width="320" height="178" preload="auto" controls>
+    	<video style="width: 100%" preload="auto" controls>
 
 			<source src="_video/timelapse.mp4" type="video/mp4">
 			<source src="_video/timelapse.webm" type="video/webm">
