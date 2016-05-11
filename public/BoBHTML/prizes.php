@@ -82,7 +82,7 @@
           <img src="_images/sponsors_home3.jpg" alt="Sponsors" />
       </div>
 
-      <h2>&nbsp;&nbsp; Place &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Prize </h2>
+      <h2 style="font-size: 2em; font-weight: bolder;">&nbsp;&nbsp; Place &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Prize </h2>
    
     <div class="content" style="max-height: 700px; width: 80%; margin: 0 auto; overflow: scroll; overflow-x: hidden; margin-bottom: 10px; font-size: 24px;">
                         <table>
