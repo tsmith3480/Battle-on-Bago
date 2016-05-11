@@ -271,7 +271,8 @@ footer
 }
 
 .AccountDetails input, .AccountDetails select {
-	margin-right: 40px;
+	margin-right: 60px;
+	font-size: 2em;
 }
 
 .AccountDetails select {
@@ -296,10 +297,6 @@ footer
 	display: block;
 	float: left;
     font-size:small;
-}
-
-.AccountDetails .label {
-	width: 80px;
 }
 
 .RegisteredTickets {
