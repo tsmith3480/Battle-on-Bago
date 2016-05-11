@@ -252,19 +252,19 @@ footer
 	margin-top: 600px;
 }
 
-.AccountDetails {
+.AccountDetails, .RegisteredTickets {
 	display: block;
 	float: left;
 	width: 100%;
 	clear: both;
 }
 
-.AccountDetails legend {
+.AccountDetails legend, .RegisteredTickets legend {
 	font-size: 3em;
 	font-weight: bolder;
 }
 
-.AccountDetails label {
+.AccountDetails .label, .RegisteredTickets .label {
 	font-size: 2em;
 	font-weight: bold;
 	padding-left: 30px;
