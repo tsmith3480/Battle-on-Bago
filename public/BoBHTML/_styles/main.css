@@ -259,6 +259,25 @@ footer
 	clear: both;
 }
 
+.AccountDetails legend {
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+.AccountDetails label {
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+.AccountDetails input, .AccountDetails select {
+	margin-right: 40px;
+}
+
+.AccountDetails select {
+	width: 150px;
+}
+
 .AccountDetails .button {
 	display: inline-block;
 	float:none;
