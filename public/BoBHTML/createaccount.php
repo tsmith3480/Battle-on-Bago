@@ -146,6 +146,10 @@
      		 </ul>
    	 </nav> 
     </div>
+      
+      <div class="sponsors">
+          <img src="_images/sponsors_home3.jpg" alt="Sponsors" />
+      </div>
    
     <div id="PDS">
       <form name="PDS" id="PDS" action="http://battleonbago.azurewebsites.net/_php/newConst.php" method="post">
