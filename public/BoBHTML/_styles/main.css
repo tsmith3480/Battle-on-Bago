@@ -73,7 +73,7 @@ input
 #lstState
 {
 	display: inline-block;
-	float: right;
+	float: left;
 }
 
 legend
@@ -272,7 +272,8 @@ footer
 }
 
 .AccountDetails input, .AccountDetails select {
-	font-size: 1em;
+	font-size: 2em;
+	float: left;
 }
 
 .AccountDetails select {
@@ -283,9 +284,10 @@ footer
 	display: inline-block;
 	float:none;
 	width: auto;
-	height: 25px;
+	height: auto;
 	padding-left: 3px;
 	padding-right: 3px;
+	font-size: 1em;
 }
 
 .AccountDetails p {
