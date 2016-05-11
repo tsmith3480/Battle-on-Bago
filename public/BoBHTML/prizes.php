@@ -82,12 +82,8 @@
           <img src="_images/sponsors_home3.jpg" alt="Sponsors" />
       </div>
    
-    <div class="content" style="float: left; max-height: 700px; width: 100%; overflow: scroll; overflow-x: hidden; margin-bottom: 10px; font-size: 24px;">
+    <div class="content" style="float: left; max-height: 700px; width: 80%; margin: 0 auto; overflow: scroll; overflow-x: hidden; margin-bottom: 10px; font-size: 24px;">
                         <table>
-                            <tr>
-                                <th scope="col">Place</th>
-                                <th scope="col">Prize</th>
-                            </tr>
                             <tr>
                                 <td height="32" align="left" sdval="1" sdnum="1033;">1</font></td>
                                 <td align="left">Grizzly 75 Cooler – Battle on Bago Edition</font></td>
