@@ -346,7 +346,13 @@ footer
 }
 
 .RegisteredTickets legend {
+	font-weight: bolder;
 	font-size: 3em;
+}
+
+.RegisteredTickets ol li .label {
+	font-size: 2em;
+	font-weight: bold;
 }
 
 .RegisteredTickets ol li {
