@@ -84,7 +84,9 @@ legend
 #accountdetails
 {
 	font-size: 1.2em;
-	padding-top: 70px;
+	padding-top: 10px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 #AccountDets
