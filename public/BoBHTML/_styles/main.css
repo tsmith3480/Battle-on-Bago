@@ -329,6 +329,10 @@ div#PDS fieldset label {
 	padding-left: 20px;
 }
 
-div#PDS fieldset input {
+div#PDS fieldset input, div#PDS fieldset select {
 	margin-right: 20px;
+}
+
+div#PDS fieldset select {
+	width: 150px;
 }
