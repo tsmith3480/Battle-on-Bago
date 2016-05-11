@@ -84,7 +84,9 @@ legend
 #accountdetails
 {
 	font-size: 1.2em;
-	padding-top: 70px;
+	padding-top: 10px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 #AccountDets
@@ -98,7 +100,8 @@ legend
 {
 	text-align: left;
 	display: inline-block;
-	
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #RegTick
@@ -253,24 +256,81 @@ footer
 .AccountDetails {
 	display: block;
 	float: left;
-	width: 350px;
+	width: 100%;
 	clear: both;
-	margin-right: 350px;
-	margin-left: 5px;
+}
+
+.AccountDetails legend {
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+.AccountDetails .label {
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 30px;
+	width: 250px;
+}
+
+.AccountDetails input, .AccountDetails select {
+	font-size: 2em;
+	float: left;
+}
+
+.AccountDetails select {
+	width: 150px;
 }
 
 .AccountDetails .button {
 	display: inline-block;
 	float:none;
 	width: auto;
-	height: 25px;
+	height: auto;
 	padding-left: 3px;
 	padding-right: 3px;
+	font-size: 2em;
 }
 
 .AccountDetails p {
 	display: block;
-	height: 12px;
+	height: 40px;
+}
+
+#TicketReg, #TicketReg form{
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+#TicketReg h2 {
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+#TicketReg form label {
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 30px;
+	width: 250px;
+	float: left;
+}
+
+#TicketReg form input {
+	font-size: 2em;
+	float: left;
+}
+
+#TicketReg form .tktSubmit {
+	clear: both;
+	margin-top: 20px;
+}
+
+#RegTickets {
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
 }
 
 .label {
@@ -279,19 +339,31 @@ footer
     font-size:small;
 }
 
-.AccountDetails .label {
-	width: 80px;
-}
-
 .RegisteredTickets {
 	display: block;
 	float: left;
-	width: 300px;
+	width: 100%;
 	text-align: left;
+}
+
+.RegisteredTickets legend {
+	font-weight: bolder;
+	font-size: 3em;
+}
+
+.RegisteredTickets ol li .label {
+	font-size: 1em;
+	font-weight: bold;
+	width: 150px;
+}
+
+.RegisteredTickets ol li {
+	font-size: 2em;
 }
 
 .RegisteredTickets .label {
 	width: 50px;
+	padding-left: 10px;
 }
 
 .TicketRegistration {
@@ -309,4 +381,40 @@ fieldset#acctInfo .actinfo {
 fieldset#editInfo .actinfo:hover {
 	background: grey;
 	font-weight: bolder;
+}
+
+/* Create account styles */
+div#PDS fieldset{
+	width: 80%;
+	margin: 0 auto;
+}
+
+div#PDS fieldset legend {
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+div#PDS fieldset label {
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+div#PDS fieldset input, div#PDS fieldset select {
+	margin-right: 40px;
+}
+
+div#PDS fieldset select {
+	width: 150px;
+}
+
+.sponsors {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+}
+
+.sponsors img {
+	width: 100%;
 }
