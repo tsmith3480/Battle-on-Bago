@@ -307,6 +307,18 @@ footer
 	font-weight: bolder;
 }
 
+#TicketReg form label {
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 30px;
+	width: 250px;
+}
+
+#TicketReg form input {
+	font-size: 2em;
+	float: left;
+}
+
 .label {
 	display: block;
 	float: left;
