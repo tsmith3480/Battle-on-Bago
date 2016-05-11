@@ -313,7 +313,7 @@ fieldset#editInfo .actinfo:hover {
 }
 
 /* Create account styles */
-fieldset#PDS {
+div#PDS fieldset{
 	width: 80%;
 	margin: 0 auto;
 }
