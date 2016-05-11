@@ -255,10 +255,8 @@ footer
 .AccountDetails {
 	display: block;
 	float: left;
-	width: 350px;
+	width: 100%;
 	clear: both;
-	margin-right: 350px;
-	margin-left: 5px;
 }
 
 .AccountDetails .button {
