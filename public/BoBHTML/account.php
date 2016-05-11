@@ -259,14 +259,16 @@ require_once('_php/PasswordVerifySessionModal.php');
 				$SQL->bindValue(':contID', $contID);
 				$SQL->execute();
 				$Tickets = $SQL->fetch();
+				print ('<ol>');
 				while ($Tickets != null){
 					$Ticket = $Tickets['ticketNum'];
 					echo("
-							<p><span class='label'>Ticket $i: </span>$Ticket</p>
+						<li><span class='label'>Ticket $i: </span>$Ticket</li>
 						");
 					$i++;
 					$Tickets = $SQL->fetch();
 				}
+				print ('</ol>');
 				$SQL->closeCursor();
 				$db = null;
 			} catch (PDOException $e) {
