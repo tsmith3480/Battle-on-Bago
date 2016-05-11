@@ -323,6 +323,7 @@ footer
 
 #TicketReg form .tktSubmit {
 	clear: both;
+	margin-top: 20px;
 }
 
 #RegTickets {
@@ -351,8 +352,9 @@ footer
 }
 
 .RegisteredTickets ol li .label {
-	font-size: 2em;
+	font-size: 1em;
 	font-weight: bold;
+	width: 150px;
 }
 
 .RegisteredTickets ol li {
