@@ -155,9 +155,6 @@ legend
 	line-height: 28px;
 	width: 15%;
 	padding: 2px;
-	border:1px solid;
-	border-radius: 7px;
-	background-image: linear-gradient(#035, #999 40%, #027 55%, #035);
 	text-align: center;
 	font-size: 1.3em;
 	font-weight: bold;
