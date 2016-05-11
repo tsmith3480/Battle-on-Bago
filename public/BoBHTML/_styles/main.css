@@ -300,6 +300,7 @@ footer
 	float: left;
 	width: 100%;
 	clear: both;
+	float: left;
 }
 
 #TicketReg h2 {
