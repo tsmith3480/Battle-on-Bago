@@ -326,4 +326,9 @@ div#PDS fieldset legend {
 div#PDS fieldset label {
 	font-size: 2em;
 	font-weight: bold;
+	padding-left: 10px;
+}
+
+div#PDS fieldset input {
+	padding-right: 10px;
 }
