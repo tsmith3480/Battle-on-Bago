@@ -271,8 +271,7 @@ footer
 }
 
 .AccountDetails input, .AccountDetails select {
-	margin-right: 60px;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 .AccountDetails select {
