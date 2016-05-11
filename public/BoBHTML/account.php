@@ -263,7 +263,7 @@ require_once('_php/PasswordVerifySessionModal.php');
 				while ($Tickets != null){
 					$Ticket = $Tickets['ticketNum'];
 					echo("
-						<li><span class='label'>Ticket $i: </span>$Ticket</li>
+						<li><span class='label'>Ticket $i: </span>$Ticket</li><br />
 						");
 					$i++;
 					$Tickets = $SQL->fetch();
