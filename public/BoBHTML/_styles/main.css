@@ -340,6 +340,8 @@ div#PDS fieldset select {
 .sponsors {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	border-style: outset;
+	box-shadow: #3f545f;
 }
 
 .sponsors img {

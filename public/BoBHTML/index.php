@@ -66,7 +66,7 @@
     </div>
     
     <div id="TextAndVideo">
-        <h1><b>Welcome to Battle On Bago!</b></h1>
+        <h2><b>Welcome to Battle On Bago!</b></h2>
     	<video width="320" height="178" preload="auto" controls>
 
 			<source src="_video/timelapse.mp4" type="video/mp4">
