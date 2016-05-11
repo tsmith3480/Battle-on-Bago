@@ -287,12 +287,24 @@ footer
 	height: auto;
 	padding-left: 3px;
 	padding-right: 3px;
-	font-size: 1em;
+	font-size: 2em;
 }
 
 .AccountDetails p {
 	display: block;
 	height: 40px;
+}
+
+#TicketReg {
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+#TicketReg legend {
+	font-size: 3em;
+	font-weight: bolder;
 }
 
 .label {
