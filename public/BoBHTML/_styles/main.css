@@ -418,3 +418,10 @@ div#PDS fieldset select {
 .sponsors img {
 	width: 100%;
 }
+
+#errors {
+	text-align: center;
+	color: red;
+	font-style: italic;
+	font-size: 2.5em;
+}

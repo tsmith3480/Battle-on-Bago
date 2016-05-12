@@ -251,7 +251,7 @@
 					<input type="password" id="txtPassword2" name="txtPassword2" />
 
                     <br />
-                  <h1 id="errors" style="text-align: center; color: red;"></h1>
+                  <h1 id="errors"></h1>
 					<br />
 						<input class="frmSubmit" type="submit" value="Create Account" onclick="return Validate()"/>
 						<br />
